@@ -286,6 +286,22 @@
     background-position-x: center;
     background-position-y: -250px;
   }
+  header .lang-nav-link {
+    color: #fff;
+    font-size: 14px;
+  }
+  header #lang-select-label:hover {
+    cursor: pointer;
+    color: #fff;
+  }
+  header #lang-select-label {
+    color: #fff;
+    font-size: 14px;
+  }
+  header #lang-select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
   header .header-wrap {
     padding: 20px 0;
   }

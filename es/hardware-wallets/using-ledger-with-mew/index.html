@@ -1,0 +1,4037 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  
+  <title>Using a Ledger Hardware Wallet with MEW | MyEtherWallet Knowledge Base</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="../../../css/google-fonts.css">
+<link rel="stylesheet" href="../../../css/font-awesome.css">
+
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <link rel="stylesheet" href="../../../css/style.css">
+</head>
+</html>
+<body>
+
+  <div class="site-container desktop-content">
+    <div class="site-wrap">
+      
+
+
+  <header>
+  <div class="page-container">
+    <div class="header-wrap">
+      <div class="header-top-block">
+    <div class="left">
+        <a href="/es/../"><img src="../../../images/mew-logo-white.png"></a>
+        <p>Help Center</p>
+    </div>
+    <div class="right">
+        <ul>
+            
+                <li><a class="main-nav-link" href="/es/../index.html">Home</a></li>
+            
+                <li><a class="main-nav-link" href="mailto:support@myetherwallet.com">Support</a></li>
+            
+            <li>
+                <label id="lang-select-label" for="lang-select" class="lang-nav-link"><i class="fa fa-globe"></i><span class="lang-nav-link">español</span></label>
+                <select id="lang-select" class="hidden" data-canonical="hardware-wallets/using-ledger-with-mew/index.html">
+                    <option >Select Language</option>
+                    
+                    <option value="ru">Русский</option>
+                    
+                    <option value="en">English</option>
+                    
+                    <option value="ko">한국어</option>
+                    
+                    <option value="ja">日本語</option>
+                    
+                    <option value="es" selected>español</option>
+                    
+                    <option value="zh">简体中文</option>
+                    
+                </select>
+            </li>
+        </ul>
+    </div>
+</div>
+
+      <div class="page-title">
+        <div class="title">Hardware Wallets</div>
+      </div>
+    </div>
+  </div>
+</header>
+  
+<div class="desktop-content">
+  <div class="breadcrumbs-container page-container">
+    <div class="mew___components_breadcrumbs">
+  <div class="wrap">
+    <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
+    <div><a href="/es/categories">Categorías</a> >&nbsp;</div>
+    <div class="post-title"><span>[Hardware Wallets]</span> Using a Ledger Hardware Wallet with MEW</div>
+  </div>  
+</div>
+
+  </div>
+  <div class="article-container page-container">
+    <div class="wrap-sidebar">
+      
+
+
+<aside>
+  <div class="search-form-container hidden">
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://kb.myetherwallet.com"></form>
+  </div>
+  <div class="sidebar-search">
+    <div class="mew___components_sidebar_sidebar-search-form">
+  <input id="sidebar-post-search-form" type="text" placeholder="Search">
+</div>
+
+  </div>
+  <div class="sidebar-primary-category">
+    <ul>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l3200epjj04cz3k8swj</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">2</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l2s00dyjj040x27f1du</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">3</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l3000emjj04qcjaukao</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-ledger-with-mew/">
+              <div class="active">
+                <div class="hidden post-index-number">4</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l2y00ehjj0439tk69si</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">5</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l2w00e9jj04s4uwmtou</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">6</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7l2u00e2jj04o72u456h</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">7</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7l2x00eejj043t0cwyv4</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+  <div class="customer">
+    
+<div class="mew___components_sidebar_customer-support-block">
+  <div class="wrap">
+    <div class="icon-image">
+      <img src="../../../images/mew-icons/customer-support.svg">
+    </div>
+    <div class="content">
+      <div class="title">Customer Support</div>
+      <div class="email-us">
+        <a href="mailto:support@myetherwallet.com" target="_blank">
+          Email us
+          <span>&#x2192;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- .bottom-helpers -->
+
+  </div>
+</aside>
+    </div>
+    <div class="wrap-post-body">
+      <article id="post-es/hardware-wallets/using-ledger-with-mew" class="article article-type-post" itemscope itemprop="blogPost">
+        <h1 id="Using-a-Ledger-Hardware-Wallet-with-MEW"><a href="#Using-a-Ledger-Hardware-Wallet-with-MEW" class="headerlink" title="Using a Ledger Hardware Wallet with MEW"></a><strong>Using a Ledger Hardware Wallet with MEW</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>6 min read</h6><hr>
+<p>Ledger Hardware Wallets are some of the most secure and intuitive cryptocurrency hardware wallets out there. They are available for purchase <a href="https://www.ledger.com/?r=fa4b" target="_blank" rel="noopener">here</a>. <em>Please purchase hardware wallets from the original source. Hardware wallets bought off ebay or from other vendors cannot be guaranteed secure.</em></p>
+<p>This particular hardware wallet supports a wide range of cryptocurrencies, but this guide is specifically made for accessing Ethereum and ERC-20 tokens while using MyEtherWallet (MEW).</p>
+<p><strong>This part is very important.</strong> Your Ledger device comes as its own SEPARATE wallet. You cannot import your old MEW address into this, or use your old wallet with it. It has its own private key, encrypted into the device itself. You will be choosing a new ethereum address on this device, and using it as your new main wallet.</p>
+<p>Without further ado, let’s begin!</p>
+<h2 id="The-Initial-Set-Up"><a href="#The-Initial-Set-Up" class="headerlink" title="The Initial Set-Up"></a><strong>The Initial Set-Up</strong></h2><p><strong>Step 1.</strong> Unbox your Ledger! You will see some cards and instructions for set-up. Follow these instructions carefully! Plug in the Ledger to your computer and get started. Press both buttons at the top of the Ledger to navigate past the first screen, seen below.</p>
+<img src="/images/posts/hardware-wallet/ledger/welcome.jpg" width="50%">
+
+<hr>
+<p><strong>Step 2.</strong> There are two buttons on the Ledger. Use these to navigate the device. When setting up your new device for the first time, choose the button on the right to select the check mark, indicating ‘yes’.</p>
+<img src="/images/posts/hardware-wallet/ledger/configure-as-new-device.jpg" width="50%">
+
+<hr>
+<p><strong>Step 3.</strong> Set up a PIN code to access your Ledger. Make it something that is very easy to remember for you. Write it down in a couple places. Remember it!! This is how you will unlock your Ledger everytime you want to access it. The PIN code must be between 4 and 8 characters, and it can be changed after set-up. However, if you get the PIN code wrong three times in a row, the device will reset. Be careful!</p>
+<img src="/images/posts/hardware-wallet/ledger/choose-pin.jpg" width="50%">
+
+<hr>
+<p><strong>Step 4.</strong> This is one of the most important steps. Do not write this phrase down on your computer, do not take a picture of the phrase. Make sure you write down your 24 seed words in multiple places. DO NOT LOSE THEM. If you lose these words, you’ve lost all your cryptocurrency. Ledger provides cards for you to write them down for remembering, but I suggest writing them down in one extra place as well. Again, do not write this phrase down on your computer. Use pen and paper.</p>
+<img src="/images/posts/hardware-wallet/ledger/write-down-recovery.jpg" width="50%">
+
+<hr>
+<p><strong>Step 5.</strong> Great, your device is now ready! Now let’s figure out how to use it with MyEtherWallet.</p>
+<img src="/images/posts/hardware-wallet/ledger/device-ready.jpg" width="50%">
+
+<h2 id="Using-Ledger-with-MEW"><a href="#Using-Ledger-with-MEW" class="headerlink" title="Using Ledger with MEW"></a><strong>Using Ledger with MEW</strong></h2><p><strong>Step 1.</strong> Attach and unlock your Ledger device. You should see a few different sections to choose from, choose the Ethereum section as shown above. Click both buttons to open it.</p>
+<img src="/images/posts/hardware-wallet/ledger/ethereum-app.jpg" width="50%">
+
+<hr>
+<p><strong>Step 2.</strong> Click into this Setting section with both buttons.</p>
+<img src="/images/posts/hardware-wallet/ledger/ethereum-settings.jpg" width="50%">
+
+<hr>
+<p><strong>Step 3.</strong> You will see “Contract Data” in this section. Make sure this option is turned to “Yes”.</p>
+<hr>
+<p><strong>Step 4.</strong> Good job, it’s all ready now! Head back to the “Ethereum” section and leave your Ledger alone for a moment. Let’s head to MEW!</p>
+<hr>
+<p><strong>Step 5.</strong> Check the URL for the “MyEtherWallet Inc [US]” SSL certification to make sure you’re on our real, secure site. Are you? Great! Head to ‘Access My Wallet’ and choose the option that says ‘Hardware’. Click the ‘Ledger Wallet’ option, and choose ‘Connect With Your Device’ with your Ledger device still attached, unlocked, and ready.</p>
+<img src="/images/posts/hardware-wallet/ledger/MEW1.png" width="75%">
+
+<hr>
+<p><strong>Step 6.</strong> A screen showing different networks and derivation paths should appear. Choose which network you’d like to connect to, and which path you’d like to use. For regular ETH usage, you should be on an ETH network, under the Ethereum derivation path. You can also access other networks, such as Ethereum Classic (ETC), by choosing the related network path.</p>
+<img src="/images/posts/hardware-wallet/ledger/MEW2.png" width="70%">
+
+<img src="/images/posts/hardware-wallet/ledger/Ledger1.png" width="70%">
+
+<hr>
+<p><strong>Step 7.</strong> You will see a list of addresses. These are your new addresses to choose from for your main wallet! Choose one out of the five that you like. (Most people choose the first one, but you don’t have to.)</p>
+<p><img src="/images/posts/hardware-wallet/ledger/Ledger2.png" width="41.3%"> <img src="/images/posts/hardware-wallet/ledger/Ledger3.png" width="50%"></p>
+<hr>
+<p><strong>Step 8.</strong> You should now be taken to a screen that looks very similar to your old wallet’s access screen. Great job! You’re officially using your new Ledger hardware wallet!</p>
+<img src="/images/posts/hardware-wallet/ledger/LEdger4.png" width="50%">
+
+<h2 id="What-About-My-Old-Wallet"><a href="#What-About-My-Old-Wallet" class="headerlink" title="What About My Old Wallet???"></a><strong>What About My Old Wallet???</strong></h2><p>If you are coming from an old wallet and want your ETH and tokens on your new, secure Ledger address, you will need to send your funds to your new address through a regular transaction. This can be achieved by accessing your old wallet through MEWconnect, MetaMask, Keystore file, or private key (however you usually did it before the Ledger). From here, send your ETH and tokens to your new Ledger address, ready to be accessed in a more secure fashion.</p>
+<p>Please be advised ETH will be required for gas to move any tokens held in your old wallet. We recommend holding .01 ETH to cover 2 - 3 transactions.</p>
+<h2 id="How-Do-I-Restore-My-Ledger-to-a-New-Device"><a href="#How-Do-I-Restore-My-Ledger-to-a-New-Device" class="headerlink" title="How Do I Restore My Ledger to a New Device?"></a><strong>How Do I Restore My Ledger to a New Device?</strong></h2><p>Ledger made a clear and easy to follow guide on how to restore your Ledger device <a href="https://support.ledger.com/hc/en-us/articles/360005434914-Restore-from-recovery-phrase" target="_blank" rel="noopener">here</a>.</p>
+<h2 id="Troubleshooting"><a href="#Troubleshooting" class="headerlink" title="Troubleshooting"></a><strong>Troubleshooting</strong></h2><p>Most issues with the Ledger can be fixed by performing a hard refresh (using CTRL+F5), making sure Contract Data is turned to ‘Yes’, confirming that all the firmware is updated to its latest release, and trying a new connecting cable.</p>
+<p>If these troubleshooting options did not fix your issue, MEW has an extensive knowledge base that you can find <a href="https://kb.myetherwallet.com">here</a>. There is a big chance that it’s already listed under ‘Common Issues’. If not, feel free to contact us at <a href="mailto:support@myetherwallet.com" target="_blank" rel="noopener">support@myetherwallet.com</a>. We are always happy to help!</p>
+
+      </article>
+      <div class="thumbs-and-share-container">
+        <div class="share">
+          <div class="mew___components_share">
+  <div class="wrap">
+    <div class="title">Share to</div>
+    <div><a href="https://www.facebook.com/MyEtherWallet" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+    <div><a href="https://twitter.com/myetherwallet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.linkedin.com/company/myetherwallet" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></div>
+    <div><a href="https://medium.com/@myetherwallet" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="pre-next-posts">
+        
+
+
+<div class="related-posts">
+
+  
+    <a href="/es/hardware-wallets/using-secalot-with-mew/">
+      <div class="pre-post valid">
+        <div class="button-title">< Previous</div>
+        <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+      </div>
+    </a>
+  
+
+  
+    <a href="/es/hardware-wallets/using-keepkey-with-mew/">
+      <div class="next-post valid">
+        <div class="button-title">Siguiente ></div>
+        <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+      </div>
+    </a>
+  
+
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mobile-content">
+  <div class="breadcrumbs-container page-container hidden">
+    <div class="mew___components_breadcrumbs">
+  <div class="wrap">
+    <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
+    <div><a href="/es/../categories">Categorías</a> >&nbsp;</div>
+    <div class="post-title"><span>[Hardware Wallets]</span> Using a Ledger Hardware Wallet with MEW</div>
+  </div>  
+</div>
+
+  </div>
+  <div class="article-container page-container">
+    <div class="wrap-sidebar">
+      
+
+
+<aside>
+  <div class="search-form-container hidden">
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://kb.myetherwallet.com"></form>
+  </div>
+  <div class="sidebar-search hidden">
+    <div class="mew___components_sidebar_sidebar-search-form">
+  <input id="sidebar-post-search-form" type="text" placeholder="Search">
+</div>
+
+  </div>
+  <div class="show-list-button">
+    <p>Show all posts</p>
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+  </div>
+  <div class="sidebar-primary-category mobile-post-list">
+    <ul>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l3200epjj04cz3k8swj</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">2</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7lar00zfjj043kljrwnu</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">3</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ky00029jj04qdr1ick4</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">4</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l5j00kxjj046wvxjsmy</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">5</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ldz016ljj04lepeywce</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">6</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l8000s8jj04u2mue6uu</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">7</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7kzx005ejj04v9h2kcnm</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">8</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7lao00z8jj04i5xpcn1p</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">9</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7lan00z5jj04k4lxe9fb</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">10</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7lal00yyjj0412r40stx</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">11</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7lah00yojj043z6qi5u9</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">12</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7kzy005fjj04jdbvexa6</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">13</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l5700k9jj04ilcwegjp</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">14</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l5d00kjjj040lka3k5k</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">15</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l5f00knjj04thigh19o</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">16</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l5i00ktjj04j0mod9kg</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">17</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7kxx001ujj04o6hclp7v</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">18</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ldv016hjj04tz1220ph</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">19</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ldu016ejj04q728kfgi</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">20</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ldq0167jj04wm62ye7q</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">21</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l2s00dyjj040x27f1du</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">22</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ldl015wjj041lv53xr4</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">23</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l2w00e9jj04s4uwmtou</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">24</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l7z00s4jj04c4uwky2y</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">25</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l7y00s1jj04kv4yaz8d</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">26</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l7x00rxjj04t5idfuma</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">27</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l7u00rnjj04l9fhareq</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-ledger-with-mew/">
+              <div class="active">
+                <div class="hidden post-index-number">28</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l2y00ehjj0439tk69si</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">29</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l3000emjj04qcjaukao</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">30</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ky00025jj04tee5j5ar</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">31</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7l7v00rqjj04gmr45hge</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">32</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7lai00yrjj045qk2is4j</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">33</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7kxy001xjj04k1soglx8</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">34</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7l2u00e2jj04o72u456h</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">35</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7ldo0163jj04g6jhd5wd</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">36</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7l5b00kgjj04fui89y8n</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">37</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7l2x00eejj043t0cwyv4</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">38</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7l7w00rujj045f9x5a6a</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">39</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7lam00z1jj049u7gtcto</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">40</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7l5h00kqjj043ry4z93u</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">41</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7lds016ajj045mhnydc9</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">42</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7kxz0021jj047910hfdw</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+  <div class="sidebar-close-button">Close</div>
+</aside>
+    </div>
+    <div class="wrap-post-body">
+      <article id="post-es/hardware-wallets/using-ledger-with-mew" class="article article-type-post" itemscope itemprop="blogPost">
+        <h1 id="Using-a-Ledger-Hardware-Wallet-with-MEW"><a href="#Using-a-Ledger-Hardware-Wallet-with-MEW" class="headerlink" title="Using a Ledger Hardware Wallet with MEW"></a><strong>Using a Ledger Hardware Wallet with MEW</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>6 min read</h6><hr>
+<p>Ledger Hardware Wallets are some of the most secure and intuitive cryptocurrency hardware wallets out there. They are available for purchase <a href="https://www.ledger.com/?r=fa4b" target="_blank" rel="noopener">here</a>. <em>Please purchase hardware wallets from the original source. Hardware wallets bought off ebay or from other vendors cannot be guaranteed secure.</em></p>
+<p>This particular hardware wallet supports a wide range of cryptocurrencies, but this guide is specifically made for accessing Ethereum and ERC-20 tokens while using MyEtherWallet (MEW).</p>
+<p><strong>This part is very important.</strong> Your Ledger device comes as its own SEPARATE wallet. You cannot import your old MEW address into this, or use your old wallet with it. It has its own private key, encrypted into the device itself. You will be choosing a new ethereum address on this device, and using it as your new main wallet.</p>
+<p>Without further ado, let’s begin!</p>
+<h2 id="The-Initial-Set-Up"><a href="#The-Initial-Set-Up" class="headerlink" title="The Initial Set-Up"></a><strong>The Initial Set-Up</strong></h2><p><strong>Step 1.</strong> Unbox your Ledger! You will see some cards and instructions for set-up. Follow these instructions carefully! Plug in the Ledger to your computer and get started. Press both buttons at the top of the Ledger to navigate past the first screen, seen below.</p>
+<img src="/images/posts/hardware-wallet/ledger/welcome.jpg" width="50%">
+
+<hr>
+<p><strong>Step 2.</strong> There are two buttons on the Ledger. Use these to navigate the device. When setting up your new device for the first time, choose the button on the right to select the check mark, indicating ‘yes’.</p>
+<img src="/images/posts/hardware-wallet/ledger/configure-as-new-device.jpg" width="50%">
+
+<hr>
+<p><strong>Step 3.</strong> Set up a PIN code to access your Ledger. Make it something that is very easy to remember for you. Write it down in a couple places. Remember it!! This is how you will unlock your Ledger everytime you want to access it. The PIN code must be between 4 and 8 characters, and it can be changed after set-up. However, if you get the PIN code wrong three times in a row, the device will reset. Be careful!</p>
+<img src="/images/posts/hardware-wallet/ledger/choose-pin.jpg" width="50%">
+
+<hr>
+<p><strong>Step 4.</strong> This is one of the most important steps. Do not write this phrase down on your computer, do not take a picture of the phrase. Make sure you write down your 24 seed words in multiple places. DO NOT LOSE THEM. If you lose these words, you’ve lost all your cryptocurrency. Ledger provides cards for you to write them down for remembering, but I suggest writing them down in one extra place as well. Again, do not write this phrase down on your computer. Use pen and paper.</p>
+<img src="/images/posts/hardware-wallet/ledger/write-down-recovery.jpg" width="50%">
+
+<hr>
+<p><strong>Step 5.</strong> Great, your device is now ready! Now let’s figure out how to use it with MyEtherWallet.</p>
+<img src="/images/posts/hardware-wallet/ledger/device-ready.jpg" width="50%">
+
+<h2 id="Using-Ledger-with-MEW"><a href="#Using-Ledger-with-MEW" class="headerlink" title="Using Ledger with MEW"></a><strong>Using Ledger with MEW</strong></h2><p><strong>Step 1.</strong> Attach and unlock your Ledger device. You should see a few different sections to choose from, choose the Ethereum section as shown above. Click both buttons to open it.</p>
+<img src="/images/posts/hardware-wallet/ledger/ethereum-app.jpg" width="50%">
+
+<hr>
+<p><strong>Step 2.</strong> Click into this Setting section with both buttons.</p>
+<img src="/images/posts/hardware-wallet/ledger/ethereum-settings.jpg" width="50%">
+
+<hr>
+<p><strong>Step 3.</strong> You will see “Contract Data” in this section. Make sure this option is turned to “Yes”.</p>
+<hr>
+<p><strong>Step 4.</strong> Good job, it’s all ready now! Head back to the “Ethereum” section and leave your Ledger alone for a moment. Let’s head to MEW!</p>
+<hr>
+<p><strong>Step 5.</strong> Check the URL for the “MyEtherWallet Inc [US]” SSL certification to make sure you’re on our real, secure site. Are you? Great! Head to ‘Access My Wallet’ and choose the option that says ‘Hardware’. Click the ‘Ledger Wallet’ option, and choose ‘Connect With Your Device’ with your Ledger device still attached, unlocked, and ready.</p>
+<img src="/images/posts/hardware-wallet/ledger/MEW1.png" width="75%">
+
+<hr>
+<p><strong>Step 6.</strong> A screen showing different networks and derivation paths should appear. Choose which network you’d like to connect to, and which path you’d like to use. For regular ETH usage, you should be on an ETH network, under the Ethereum derivation path. You can also access other networks, such as Ethereum Classic (ETC), by choosing the related network path.</p>
+<img src="/images/posts/hardware-wallet/ledger/MEW2.png" width="70%">
+
+<img src="/images/posts/hardware-wallet/ledger/Ledger1.png" width="70%">
+
+<hr>
+<p><strong>Step 7.</strong> You will see a list of addresses. These are your new addresses to choose from for your main wallet! Choose one out of the five that you like. (Most people choose the first one, but you don’t have to.)</p>
+<p><img src="/images/posts/hardware-wallet/ledger/Ledger2.png" width="41.3%"> <img src="/images/posts/hardware-wallet/ledger/Ledger3.png" width="50%"></p>
+<hr>
+<p><strong>Step 8.</strong> You should now be taken to a screen that looks very similar to your old wallet’s access screen. Great job! You’re officially using your new Ledger hardware wallet!</p>
+<img src="/images/posts/hardware-wallet/ledger/LEdger4.png" width="50%">
+
+<h2 id="What-About-My-Old-Wallet"><a href="#What-About-My-Old-Wallet" class="headerlink" title="What About My Old Wallet???"></a><strong>What About My Old Wallet???</strong></h2><p>If you are coming from an old wallet and want your ETH and tokens on your new, secure Ledger address, you will need to send your funds to your new address through a regular transaction. This can be achieved by accessing your old wallet through MEWconnect, MetaMask, Keystore file, or private key (however you usually did it before the Ledger). From here, send your ETH and tokens to your new Ledger address, ready to be accessed in a more secure fashion.</p>
+<p>Please be advised ETH will be required for gas to move any tokens held in your old wallet. We recommend holding .01 ETH to cover 2 - 3 transactions.</p>
+<h2 id="How-Do-I-Restore-My-Ledger-to-a-New-Device"><a href="#How-Do-I-Restore-My-Ledger-to-a-New-Device" class="headerlink" title="How Do I Restore My Ledger to a New Device?"></a><strong>How Do I Restore My Ledger to a New Device?</strong></h2><p>Ledger made a clear and easy to follow guide on how to restore your Ledger device <a href="https://support.ledger.com/hc/en-us/articles/360005434914-Restore-from-recovery-phrase" target="_blank" rel="noopener">here</a>.</p>
+<h2 id="Troubleshooting"><a href="#Troubleshooting" class="headerlink" title="Troubleshooting"></a><strong>Troubleshooting</strong></h2><p>Most issues with the Ledger can be fixed by performing a hard refresh (using CTRL+F5), making sure Contract Data is turned to ‘Yes’, confirming that all the firmware is updated to its latest release, and trying a new connecting cable.</p>
+<p>If these troubleshooting options did not fix your issue, MEW has an extensive knowledge base that you can find <a href="https://kb.myetherwallet.com">here</a>. There is a big chance that it’s already listed under ‘Common Issues’. If not, feel free to contact us at <a href="mailto:support@myetherwallet.com" target="_blank" rel="noopener">support@myetherwallet.com</a>. We are always happy to help!</p>
+
+      </article>
+      <div class="thumbs-and-share-container">
+        <div class="share">
+          <div class="mew___components_share">
+  <div class="wrap">
+    <div class="title">Share to</div>
+    <div><a href="https://www.facebook.com/MyEtherWallet" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+    <div><a href="https://twitter.com/myetherwallet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.linkedin.com/company/myetherwallet" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></div>
+    <div><a href="https://medium.com/@myetherwallet" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="pre-next-posts">
+        
+
+
+<div class="related-posts">
+
+  
+    <a href="/es/../hardware-wallets/using-bitbox-with-mew/">
+      <div class="pre-post valid">
+        <div class="button-title">< Previous</div>
+        <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+      </div>
+    </a>
+  
+
+  
+    <a href="/es/hardware-wallets/using-secalot-with-mew/">
+      <div class="next-post valid">
+        <div class="button-title">Siguiente ></div>
+        <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+      </div>
+    </a>
+  
+
+</div>
+
+
+      </div>
+    </div>
+    <div class="padded-wrap">
+      
+<div class="mew___components_sidebar_customer-support-block">
+  <div class="wrap">
+    <div class="icon-image">
+      <img src="../../../images/mew-icons/customer-support.svg">
+    </div>
+    <div class="content">
+      <div class="title">Customer Support</div>
+      <div class="email-us">
+        <a href="mailto:support@myetherwallet.com" target="_blank">
+          Email us
+          <span>&#x2192;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- .bottom-helpers -->
+
+    </div>
+  </div>
+</div>
+
+
+
+
+      <footer>
+  <div class="page-container">
+    <div class="wrap">
+      <div class="block-left">
+        <p><a href="/es/../index.html">Home</a></p>
+        <p><a href="https://myetherwallet.com" target="_blank">MyEtherWallet.com</a></p>
+        <p><a href="https://www.myetherwallet.com/privacy-policy" target="_blank">Privacy</a></p>
+        <p><a href="https://www.myetherwallet.com/terms-and-conditions" target="_blank">Terms</a></p>
+      </div>
+      <div class="block-right">
+        <p>© 2018 MyEtherWallet Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+  </div>
+  <div class="site-container mobile-content">
+    <div class="site-wrap">
+      
+
+
+  <header>
+  <div class="header-wrap">
+    <div class="header-top-block">
+  <div class="left">
+    <a href="/es/../"><img src="../../../images/mew-logo-dark.png"></a>
+    <p>Help Center</p>
+  </div>
+  <div class="right hidden">
+    <ul>
+      
+        <li><a class="main-nav-link" href="/es/../index.html">Home</a></li>
+      
+        <li><a class="main-nav-link" href="mailto:support@myetherwallet.com">Support</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+    <div class="page-title">
+      <div class="title">Hardware Wallets</div>
+    </div>
+  </div>
+</header>
+  
+<div class="desktop-content">
+  <div class="breadcrumbs-container page-container">
+    <div class="mew___components_breadcrumbs">
+  <div class="wrap">
+    <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
+    <div><a href="/es/categories">Categorías</a> >&nbsp;</div>
+    <div class="post-title"><span>[Hardware Wallets]</span> Using a Ledger Hardware Wallet with MEW</div>
+  </div>  
+</div>
+
+  </div>
+  <div class="article-container page-container">
+    <div class="wrap-sidebar">
+      
+
+
+<aside>
+  <div class="search-form-container hidden">
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://kb.myetherwallet.com"></form>
+  </div>
+  <div class="sidebar-search">
+    <div class="mew___components_sidebar_sidebar-search-form">
+  <input id="sidebar-post-search-form" type="text" placeholder="Search">
+</div>
+
+  </div>
+  <div class="sidebar-primary-category">
+    <ul>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l3200epjj04cz3k8swj</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">2</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l2s00dyjj040x27f1du</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">3</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l3000emjj04qcjaukao</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-ledger-with-mew/">
+              <div class="active">
+                <div class="hidden post-index-number">4</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l2y00ehjj0439tk69si</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">5</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l2w00e9jj04s4uwmtou</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">6</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7l2u00e2jj04o72u456h</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">7</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7l2x00eejj043t0cwyv4</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+  <div class="customer">
+    
+<div class="mew___components_sidebar_customer-support-block">
+  <div class="wrap">
+    <div class="icon-image">
+      <img src="../../../images/mew-icons/customer-support.svg">
+    </div>
+    <div class="content">
+      <div class="title">Customer Support</div>
+      <div class="email-us">
+        <a href="mailto:support@myetherwallet.com" target="_blank">
+          Email us
+          <span>&#x2192;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- .bottom-helpers -->
+
+  </div>
+</aside>
+    </div>
+    <div class="wrap-post-body">
+      <article id="post-es/hardware-wallets/using-ledger-with-mew" class="article article-type-post" itemscope itemprop="blogPost">
+        <h1 id="Using-a-Ledger-Hardware-Wallet-with-MEW"><a href="#Using-a-Ledger-Hardware-Wallet-with-MEW" class="headerlink" title="Using a Ledger Hardware Wallet with MEW"></a><strong>Using a Ledger Hardware Wallet with MEW</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>6 min read</h6><hr>
+<p>Ledger Hardware Wallets are some of the most secure and intuitive cryptocurrency hardware wallets out there. They are available for purchase <a href="https://www.ledger.com/?r=fa4b" target="_blank" rel="noopener">here</a>. <em>Please purchase hardware wallets from the original source. Hardware wallets bought off ebay or from other vendors cannot be guaranteed secure.</em></p>
+<p>This particular hardware wallet supports a wide range of cryptocurrencies, but this guide is specifically made for accessing Ethereum and ERC-20 tokens while using MyEtherWallet (MEW).</p>
+<p><strong>This part is very important.</strong> Your Ledger device comes as its own SEPARATE wallet. You cannot import your old MEW address into this, or use your old wallet with it. It has its own private key, encrypted into the device itself. You will be choosing a new ethereum address on this device, and using it as your new main wallet.</p>
+<p>Without further ado, let’s begin!</p>
+<h2 id="The-Initial-Set-Up"><a href="#The-Initial-Set-Up" class="headerlink" title="The Initial Set-Up"></a><strong>The Initial Set-Up</strong></h2><p><strong>Step 1.</strong> Unbox your Ledger! You will see some cards and instructions for set-up. Follow these instructions carefully! Plug in the Ledger to your computer and get started. Press both buttons at the top of the Ledger to navigate past the first screen, seen below.</p>
+<img src="/images/posts/hardware-wallet/ledger/welcome.jpg" width="50%">
+
+<hr>
+<p><strong>Step 2.</strong> There are two buttons on the Ledger. Use these to navigate the device. When setting up your new device for the first time, choose the button on the right to select the check mark, indicating ‘yes’.</p>
+<img src="/images/posts/hardware-wallet/ledger/configure-as-new-device.jpg" width="50%">
+
+<hr>
+<p><strong>Step 3.</strong> Set up a PIN code to access your Ledger. Make it something that is very easy to remember for you. Write it down in a couple places. Remember it!! This is how you will unlock your Ledger everytime you want to access it. The PIN code must be between 4 and 8 characters, and it can be changed after set-up. However, if you get the PIN code wrong three times in a row, the device will reset. Be careful!</p>
+<img src="/images/posts/hardware-wallet/ledger/choose-pin.jpg" width="50%">
+
+<hr>
+<p><strong>Step 4.</strong> This is one of the most important steps. Do not write this phrase down on your computer, do not take a picture of the phrase. Make sure you write down your 24 seed words in multiple places. DO NOT LOSE THEM. If you lose these words, you’ve lost all your cryptocurrency. Ledger provides cards for you to write them down for remembering, but I suggest writing them down in one extra place as well. Again, do not write this phrase down on your computer. Use pen and paper.</p>
+<img src="/images/posts/hardware-wallet/ledger/write-down-recovery.jpg" width="50%">
+
+<hr>
+<p><strong>Step 5.</strong> Great, your device is now ready! Now let’s figure out how to use it with MyEtherWallet.</p>
+<img src="/images/posts/hardware-wallet/ledger/device-ready.jpg" width="50%">
+
+<h2 id="Using-Ledger-with-MEW"><a href="#Using-Ledger-with-MEW" class="headerlink" title="Using Ledger with MEW"></a><strong>Using Ledger with MEW</strong></h2><p><strong>Step 1.</strong> Attach and unlock your Ledger device. You should see a few different sections to choose from, choose the Ethereum section as shown above. Click both buttons to open it.</p>
+<img src="/images/posts/hardware-wallet/ledger/ethereum-app.jpg" width="50%">
+
+<hr>
+<p><strong>Step 2.</strong> Click into this Setting section with both buttons.</p>
+<img src="/images/posts/hardware-wallet/ledger/ethereum-settings.jpg" width="50%">
+
+<hr>
+<p><strong>Step 3.</strong> You will see “Contract Data” in this section. Make sure this option is turned to “Yes”.</p>
+<hr>
+<p><strong>Step 4.</strong> Good job, it’s all ready now! Head back to the “Ethereum” section and leave your Ledger alone for a moment. Let’s head to MEW!</p>
+<hr>
+<p><strong>Step 5.</strong> Check the URL for the “MyEtherWallet Inc [US]” SSL certification to make sure you’re on our real, secure site. Are you? Great! Head to ‘Access My Wallet’ and choose the option that says ‘Hardware’. Click the ‘Ledger Wallet’ option, and choose ‘Connect With Your Device’ with your Ledger device still attached, unlocked, and ready.</p>
+<img src="/images/posts/hardware-wallet/ledger/MEW1.png" width="75%">
+
+<hr>
+<p><strong>Step 6.</strong> A screen showing different networks and derivation paths should appear. Choose which network you’d like to connect to, and which path you’d like to use. For regular ETH usage, you should be on an ETH network, under the Ethereum derivation path. You can also access other networks, such as Ethereum Classic (ETC), by choosing the related network path.</p>
+<img src="/images/posts/hardware-wallet/ledger/MEW2.png" width="70%">
+
+<img src="/images/posts/hardware-wallet/ledger/Ledger1.png" width="70%">
+
+<hr>
+<p><strong>Step 7.</strong> You will see a list of addresses. These are your new addresses to choose from for your main wallet! Choose one out of the five that you like. (Most people choose the first one, but you don’t have to.)</p>
+<p><img src="/images/posts/hardware-wallet/ledger/Ledger2.png" width="41.3%"> <img src="/images/posts/hardware-wallet/ledger/Ledger3.png" width="50%"></p>
+<hr>
+<p><strong>Step 8.</strong> You should now be taken to a screen that looks very similar to your old wallet’s access screen. Great job! You’re officially using your new Ledger hardware wallet!</p>
+<img src="/images/posts/hardware-wallet/ledger/LEdger4.png" width="50%">
+
+<h2 id="What-About-My-Old-Wallet"><a href="#What-About-My-Old-Wallet" class="headerlink" title="What About My Old Wallet???"></a><strong>What About My Old Wallet???</strong></h2><p>If you are coming from an old wallet and want your ETH and tokens on your new, secure Ledger address, you will need to send your funds to your new address through a regular transaction. This can be achieved by accessing your old wallet through MEWconnect, MetaMask, Keystore file, or private key (however you usually did it before the Ledger). From here, send your ETH and tokens to your new Ledger address, ready to be accessed in a more secure fashion.</p>
+<p>Please be advised ETH will be required for gas to move any tokens held in your old wallet. We recommend holding .01 ETH to cover 2 - 3 transactions.</p>
+<h2 id="How-Do-I-Restore-My-Ledger-to-a-New-Device"><a href="#How-Do-I-Restore-My-Ledger-to-a-New-Device" class="headerlink" title="How Do I Restore My Ledger to a New Device?"></a><strong>How Do I Restore My Ledger to a New Device?</strong></h2><p>Ledger made a clear and easy to follow guide on how to restore your Ledger device <a href="https://support.ledger.com/hc/en-us/articles/360005434914-Restore-from-recovery-phrase" target="_blank" rel="noopener">here</a>.</p>
+<h2 id="Troubleshooting"><a href="#Troubleshooting" class="headerlink" title="Troubleshooting"></a><strong>Troubleshooting</strong></h2><p>Most issues with the Ledger can be fixed by performing a hard refresh (using CTRL+F5), making sure Contract Data is turned to ‘Yes’, confirming that all the firmware is updated to its latest release, and trying a new connecting cable.</p>
+<p>If these troubleshooting options did not fix your issue, MEW has an extensive knowledge base that you can find <a href="https://kb.myetherwallet.com">here</a>. There is a big chance that it’s already listed under ‘Common Issues’. If not, feel free to contact us at <a href="mailto:support@myetherwallet.com" target="_blank" rel="noopener">support@myetherwallet.com</a>. We are always happy to help!</p>
+
+      </article>
+      <div class="thumbs-and-share-container">
+        <div class="share">
+          <div class="mew___components_share">
+  <div class="wrap">
+    <div class="title">Share to</div>
+    <div><a href="https://www.facebook.com/MyEtherWallet" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+    <div><a href="https://twitter.com/myetherwallet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.linkedin.com/company/myetherwallet" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></div>
+    <div><a href="https://medium.com/@myetherwallet" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="pre-next-posts">
+        
+
+
+<div class="related-posts">
+
+  
+    <a href="/es/hardware-wallets/using-secalot-with-mew/">
+      <div class="pre-post valid">
+        <div class="button-title">< Previous</div>
+        <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+      </div>
+    </a>
+  
+
+  
+    <a href="/es/hardware-wallets/using-keepkey-with-mew/">
+      <div class="next-post valid">
+        <div class="button-title">Siguiente ></div>
+        <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+      </div>
+    </a>
+  
+
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mobile-content">
+  <div class="breadcrumbs-container page-container hidden">
+    <div class="mew___components_breadcrumbs">
+  <div class="wrap">
+    <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
+    <div><a href="/es/../categories">Categorías</a> >&nbsp;</div>
+    <div class="post-title"><span>[Hardware Wallets]</span> Using a Ledger Hardware Wallet with MEW</div>
+  </div>  
+</div>
+
+  </div>
+  <div class="article-container page-container">
+    <div class="wrap-sidebar">
+      
+
+
+<aside>
+  <div class="search-form-container hidden">
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://kb.myetherwallet.com"></form>
+  </div>
+  <div class="sidebar-search hidden">
+    <div class="mew___components_sidebar_sidebar-search-form">
+  <input id="sidebar-post-search-form" type="text" placeholder="Search">
+</div>
+
+  </div>
+  <div class="show-list-button">
+    <p>Show all posts</p>
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+  </div>
+  <div class="sidebar-primary-category mobile-post-list">
+    <ul>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l3200epjj04cz3k8swj</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">2</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7lar00zfjj043kljrwnu</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">3</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ky00029jj04qdr1ick4</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">4</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l5j00kxjj046wvxjsmy</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">5</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ldz016ljj04lepeywce</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">6</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l8000s8jj04u2mue6uu</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">7</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7kzx005ejj04v9h2kcnm</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">8</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7lao00z8jj04i5xpcn1p</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">9</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7lan00z5jj04k4lxe9fb</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">10</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7lal00yyjj0412r40stx</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">11</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7lah00yojj043z6qi5u9</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">12</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7kzy005fjj04jdbvexa6</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">13</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l5700k9jj04ilcwegjp</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">14</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l5d00kjjj040lka3k5k</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">15</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l5f00knjj04thigh19o</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">16</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l5i00ktjj04j0mod9kg</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">17</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7kxx001ujj04o6hclp7v</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">18</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ldv016hjj04tz1220ph</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">19</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ldu016ejj04q728kfgi</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">20</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ldq0167jj04wm62ye7q</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">21</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l2s00dyjj040x27f1du</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">22</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ldl015wjj041lv53xr4</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">23</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l2w00e9jj04s4uwmtou</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">24</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l7z00s4jj04c4uwky2y</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">25</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l7y00s1jj04kv4yaz8d</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">26</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l7x00rxjj04t5idfuma</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">27</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l7u00rnjj04l9fhareq</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-ledger-with-mew/">
+              <div class="active">
+                <div class="hidden post-index-number">28</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l2y00ehjj0439tk69si</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">29</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7l3000emjj04qcjaukao</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">30</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">cjx5g7ky00025jj04tee5j5ar</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">31</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7l7v00rqjj04gmr45hge</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">32</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7lai00yrjj045qk2is4j</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">33</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7kxy001xjj04k1soglx8</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">34</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7l2u00e2jj04o72u456h</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">35</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7ldo0163jj04g6jhd5wd</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">36</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">cjx5g7l5b00kgjj04fui89y8n</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">37</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7l2x00eejj043t0cwyv4</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">38</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7l7w00rujj045f9x5a6a</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">39</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7lam00z1jj049u7gtcto</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">40</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7l5h00kqjj043ry4z93u</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">41</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7lds016ajj045mhnydc9</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/es/../hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">42</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">cjx5g7kxz0021jj047910hfdw</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+  <div class="sidebar-close-button">Close</div>
+</aside>
+    </div>
+    <div class="wrap-post-body">
+      <article id="post-es/hardware-wallets/using-ledger-with-mew" class="article article-type-post" itemscope itemprop="blogPost">
+        <h1 id="Using-a-Ledger-Hardware-Wallet-with-MEW"><a href="#Using-a-Ledger-Hardware-Wallet-with-MEW" class="headerlink" title="Using a Ledger Hardware Wallet with MEW"></a><strong>Using a Ledger Hardware Wallet with MEW</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>6 min read</h6><hr>
+<p>Ledger Hardware Wallets are some of the most secure and intuitive cryptocurrency hardware wallets out there. They are available for purchase <a href="https://www.ledger.com/?r=fa4b" target="_blank" rel="noopener">here</a>. <em>Please purchase hardware wallets from the original source. Hardware wallets bought off ebay or from other vendors cannot be guaranteed secure.</em></p>
+<p>This particular hardware wallet supports a wide range of cryptocurrencies, but this guide is specifically made for accessing Ethereum and ERC-20 tokens while using MyEtherWallet (MEW).</p>
+<p><strong>This part is very important.</strong> Your Ledger device comes as its own SEPARATE wallet. You cannot import your old MEW address into this, or use your old wallet with it. It has its own private key, encrypted into the device itself. You will be choosing a new ethereum address on this device, and using it as your new main wallet.</p>
+<p>Without further ado, let’s begin!</p>
+<h2 id="The-Initial-Set-Up"><a href="#The-Initial-Set-Up" class="headerlink" title="The Initial Set-Up"></a><strong>The Initial Set-Up</strong></h2><p><strong>Step 1.</strong> Unbox your Ledger! You will see some cards and instructions for set-up. Follow these instructions carefully! Plug in the Ledger to your computer and get started. Press both buttons at the top of the Ledger to navigate past the first screen, seen below.</p>
+<img src="/images/posts/hardware-wallet/ledger/welcome.jpg" width="50%">
+
+<hr>
+<p><strong>Step 2.</strong> There are two buttons on the Ledger. Use these to navigate the device. When setting up your new device for the first time, choose the button on the right to select the check mark, indicating ‘yes’.</p>
+<img src="/images/posts/hardware-wallet/ledger/configure-as-new-device.jpg" width="50%">
+
+<hr>
+<p><strong>Step 3.</strong> Set up a PIN code to access your Ledger. Make it something that is very easy to remember for you. Write it down in a couple places. Remember it!! This is how you will unlock your Ledger everytime you want to access it. The PIN code must be between 4 and 8 characters, and it can be changed after set-up. However, if you get the PIN code wrong three times in a row, the device will reset. Be careful!</p>
+<img src="/images/posts/hardware-wallet/ledger/choose-pin.jpg" width="50%">
+
+<hr>
+<p><strong>Step 4.</strong> This is one of the most important steps. Do not write this phrase down on your computer, do not take a picture of the phrase. Make sure you write down your 24 seed words in multiple places. DO NOT LOSE THEM. If you lose these words, you’ve lost all your cryptocurrency. Ledger provides cards for you to write them down for remembering, but I suggest writing them down in one extra place as well. Again, do not write this phrase down on your computer. Use pen and paper.</p>
+<img src="/images/posts/hardware-wallet/ledger/write-down-recovery.jpg" width="50%">
+
+<hr>
+<p><strong>Step 5.</strong> Great, your device is now ready! Now let’s figure out how to use it with MyEtherWallet.</p>
+<img src="/images/posts/hardware-wallet/ledger/device-ready.jpg" width="50%">
+
+<h2 id="Using-Ledger-with-MEW"><a href="#Using-Ledger-with-MEW" class="headerlink" title="Using Ledger with MEW"></a><strong>Using Ledger with MEW</strong></h2><p><strong>Step 1.</strong> Attach and unlock your Ledger device. You should see a few different sections to choose from, choose the Ethereum section as shown above. Click both buttons to open it.</p>
+<img src="/images/posts/hardware-wallet/ledger/ethereum-app.jpg" width="50%">
+
+<hr>
+<p><strong>Step 2.</strong> Click into this Setting section with both buttons.</p>
+<img src="/images/posts/hardware-wallet/ledger/ethereum-settings.jpg" width="50%">
+
+<hr>
+<p><strong>Step 3.</strong> You will see “Contract Data” in this section. Make sure this option is turned to “Yes”.</p>
+<hr>
+<p><strong>Step 4.</strong> Good job, it’s all ready now! Head back to the “Ethereum” section and leave your Ledger alone for a moment. Let’s head to MEW!</p>
+<hr>
+<p><strong>Step 5.</strong> Check the URL for the “MyEtherWallet Inc [US]” SSL certification to make sure you’re on our real, secure site. Are you? Great! Head to ‘Access My Wallet’ and choose the option that says ‘Hardware’. Click the ‘Ledger Wallet’ option, and choose ‘Connect With Your Device’ with your Ledger device still attached, unlocked, and ready.</p>
+<img src="/images/posts/hardware-wallet/ledger/MEW1.png" width="75%">
+
+<hr>
+<p><strong>Step 6.</strong> A screen showing different networks and derivation paths should appear. Choose which network you’d like to connect to, and which path you’d like to use. For regular ETH usage, you should be on an ETH network, under the Ethereum derivation path. You can also access other networks, such as Ethereum Classic (ETC), by choosing the related network path.</p>
+<img src="/images/posts/hardware-wallet/ledger/MEW2.png" width="70%">
+
+<img src="/images/posts/hardware-wallet/ledger/Ledger1.png" width="70%">
+
+<hr>
+<p><strong>Step 7.</strong> You will see a list of addresses. These are your new addresses to choose from for your main wallet! Choose one out of the five that you like. (Most people choose the first one, but you don’t have to.)</p>
+<p><img src="/images/posts/hardware-wallet/ledger/Ledger2.png" width="41.3%"> <img src="/images/posts/hardware-wallet/ledger/Ledger3.png" width="50%"></p>
+<hr>
+<p><strong>Step 8.</strong> You should now be taken to a screen that looks very similar to your old wallet’s access screen. Great job! You’re officially using your new Ledger hardware wallet!</p>
+<img src="/images/posts/hardware-wallet/ledger/LEdger4.png" width="50%">
+
+<h2 id="What-About-My-Old-Wallet"><a href="#What-About-My-Old-Wallet" class="headerlink" title="What About My Old Wallet???"></a><strong>What About My Old Wallet???</strong></h2><p>If you are coming from an old wallet and want your ETH and tokens on your new, secure Ledger address, you will need to send your funds to your new address through a regular transaction. This can be achieved by accessing your old wallet through MEWconnect, MetaMask, Keystore file, or private key (however you usually did it before the Ledger). From here, send your ETH and tokens to your new Ledger address, ready to be accessed in a more secure fashion.</p>
+<p>Please be advised ETH will be required for gas to move any tokens held in your old wallet. We recommend holding .01 ETH to cover 2 - 3 transactions.</p>
+<h2 id="How-Do-I-Restore-My-Ledger-to-a-New-Device"><a href="#How-Do-I-Restore-My-Ledger-to-a-New-Device" class="headerlink" title="How Do I Restore My Ledger to a New Device?"></a><strong>How Do I Restore My Ledger to a New Device?</strong></h2><p>Ledger made a clear and easy to follow guide on how to restore your Ledger device <a href="https://support.ledger.com/hc/en-us/articles/360005434914-Restore-from-recovery-phrase" target="_blank" rel="noopener">here</a>.</p>
+<h2 id="Troubleshooting"><a href="#Troubleshooting" class="headerlink" title="Troubleshooting"></a><strong>Troubleshooting</strong></h2><p>Most issues with the Ledger can be fixed by performing a hard refresh (using CTRL+F5), making sure Contract Data is turned to ‘Yes’, confirming that all the firmware is updated to its latest release, and trying a new connecting cable.</p>
+<p>If these troubleshooting options did not fix your issue, MEW has an extensive knowledge base that you can find <a href="https://kb.myetherwallet.com">here</a>. There is a big chance that it’s already listed under ‘Common Issues’. If not, feel free to contact us at <a href="mailto:support@myetherwallet.com" target="_blank" rel="noopener">support@myetherwallet.com</a>. We are always happy to help!</p>
+
+      </article>
+      <div class="thumbs-and-share-container">
+        <div class="share">
+          <div class="mew___components_share">
+  <div class="wrap">
+    <div class="title">Share to</div>
+    <div><a href="https://www.facebook.com/MyEtherWallet" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+    <div><a href="https://twitter.com/myetherwallet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.linkedin.com/company/myetherwallet" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></div>
+    <div><a href="https://medium.com/@myetherwallet" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="pre-next-posts">
+        
+
+
+<div class="related-posts">
+
+  
+    <a href="/es/../hardware-wallets/using-bitbox-with-mew/">
+      <div class="pre-post valid">
+        <div class="button-title">< Previous</div>
+        <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+      </div>
+    </a>
+  
+
+  
+    <a href="/es/hardware-wallets/using-secalot-with-mew/">
+      <div class="next-post valid">
+        <div class="button-title">Siguiente ></div>
+        <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+      </div>
+    </a>
+  
+
+</div>
+
+
+      </div>
+    </div>
+    <div class="padded-wrap">
+      
+<div class="mew___components_sidebar_customer-support-block">
+  <div class="wrap">
+    <div class="icon-image">
+      <img src="../../../images/mew-icons/customer-support.svg">
+    </div>
+    <div class="content">
+      <div class="title">Customer Support</div>
+      <div class="email-us">
+        <a href="mailto:support@myetherwallet.com" target="_blank">
+          Email us
+          <span>&#x2192;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- .bottom-helpers -->
+
+    </div>
+  </div>
+</div>
+
+
+
+
+      <footer>
+  <div class="page-container">
+    <div class="wrap">
+      <div class="block-left">
+        <p><a href="/es/../index.html">Home</a></p>
+        <p class="hidden"><a href="https://myetherwallet.com" target="_blank">MyEtherWallet.com</a></p>
+        <p><a href="https://www.myetherwallet.com/privacy-policy" target="_blank">Privacy</a></p>
+        <p><a href="https://www.myetherwallet.com/terms-and-conditions" target="_blank">Terms</a></p>
+      </div>
+      <div class="block-right">
+        <p>© 2018 MyEtherWallet Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+  </div>
+
+  <script src="../../../js/jquery.min.js"></script>
+<script src="../../../js/initialization.js"></script>
+<script src="../../../js/mew/accordion.js"></script>
+<script src="../../../js/mew/youtube-popup.js"></script>
+<script src="../../../js/mew/sidebar.js"></script>
+<script src="../../../js/mew/sidebar-post-search.js"></script>
+<script src="../../../js/mew/header-post-search.js"></script>
+
+</body>
+</html>

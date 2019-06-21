@@ -1,0 +1,3325 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  
+  <title>Making an Offline Transaction | MyEtherWallet Knowledge Base</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="../../../css/google-fonts.css">
+<link rel="stylesheet" href="../../../css/font-awesome.css">
+
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <link rel="stylesheet" href="../../../css/style.css">
+</head>
+</html>
+<body>
+
+  <div class="site-container desktop-content">
+    <div class="site-wrap">
+      
+
+
+  <header>
+  <div class="page-container">
+    <div class="header-wrap">
+      <div class="header-top-block">
+    <div class="left">
+        <a href="/ja/../"><img src="../../../images/mew-logo-white.png"></a>
+        <p>Help Center</p>
+    </div>
+    <div class="right">
+        <ul>
+            
+                <li><a class="main-nav-link" href="/ja/../index.html">Home</a></li>
+            
+                <li><a class="main-nav-link" href="mailto:support@myetherwallet.com">Support</a></li>
+            
+            <li>
+                <label id="lang-select-label" for="lang-select" class="lang-nav-link"><i class="fa fa-globe"></i><span class="lang-nav-link">日本語</span></label>
+                <select id="lang-select" class="hidden" data-canonical="offline/offline_transaction/index.html">
+                    <option >Select Language</option>
+                    
+                    <option value="ru">Русский</option>
+                    
+                    <option value="en">English</option>
+                    
+                    <option value="ko">한국어</option>
+                    
+                    <option value="ja" selected>日本語</option>
+                    
+                    <option value="es">español</option>
+                    
+                    <option value="zh">简体中文</option>
+                    
+                </select>
+            </li>
+        </ul>
+    </div>
+</div>
+
+      <div class="page-title">
+        <div class="title">Offline</div>
+      </div>
+    </div>
+  </div>
+</header>
+  
+<div class="desktop-content">
+  <div class="breadcrumbs-container page-container">
+    <div class="mew___components_breadcrumbs">
+  <div class="wrap">
+    <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
+    <div><a href="/ja/categories">カテゴリ</a> >&nbsp;</div>
+    <div class="post-title"><span>[Offline]</span> Making an Offline Transaction</div>
+  </div>  
+</div>
+
+  </div>
+  <div class="article-container page-container">
+    <div class="wrap-sidebar">
+      
+
+
+<aside>
+  <div class="search-form-container hidden">
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://kb.myetherwallet.com"></form>
+  </div>
+  <div class="sidebar-search">
+    <div class="mew___components_sidebar_sidebar-search-form">
+  <input id="sidebar-post-search-form" type="text" placeholder="Search">
+</div>
+
+  </div>
+  <div class="sidebar-primary-category">
+    <ul>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/offline/offline_transaction/">
+              <div class="active">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7l6500mnjj04zvime7fp</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">2</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7l6200mjjj04ahm1b9hx</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">3</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7l6600mqjj049u0hugoq</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+  <div class="customer">
+    
+<div class="mew___components_sidebar_customer-support-block">
+  <div class="wrap">
+    <div class="icon-image">
+      <img src="../../../images/mew-icons/customer-support.svg">
+    </div>
+    <div class="content">
+      <div class="title">Customer Support</div>
+      <div class="email-us">
+        <a href="mailto:support@myetherwallet.com" target="_blank">
+          Email us
+          <span>&#x2192;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- .bottom-helpers -->
+
+  </div>
+</aside>
+    </div>
+    <div class="wrap-post-body">
+      <article id="post-ja/offline/offline_transaction" class="article article-type-post" itemscope itemprop="blogPost">
+        <h1 id="Making-an-Offline-Transaction"><a href="#Making-an-Offline-Transaction" class="headerlink" title="Making an Offline Transaction"></a><strong>Making an Offline Transaction</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>2 min read</h6><hr>
+<p>If you are <a href="/ja/offline/using-mew-offline/">using MyEtherWallet (MEW) offline and locally</a>, it is not possible to send transactions directly from the offline computer. To send or broadcast a transaction, an internet connection is required. To do this, you should use a second computer that is connected to the internet. This has the advantage of keeping your private key on a separate offline device that won’t be afflicted by malware or hackers.</p>
+<h2 id="Find-the-Nonce-amp-Transaction-Details"><a href="#Find-the-Nonce-amp-Transaction-Details" class="headerlink" title="Find the Nonce &amp; Transaction Details"></a><strong>Find the Nonce &amp; Transaction Details</strong></h2><p><strong>Step 1.</strong> Head to MyEtherWallet.com on your <strong>online</strong> computer.</p>
+<p><strong>Step 2.</strong> At the bottom, in the footer, choose the ‘Send Offline Helper’ tool.</p>
+<p><strong>Step 3.</strong> Choose the network you are interacting with.</p>
+<ul>
+<li>Leave it on ‘ETH’ if you are using Ether or ERC20 tokens.</li>
+</ul>
+<p><strong>Step 4.</strong> Fill in the address you are sending from, and our interface will generate a gas price and nonce for your transaction, along with other details</p>
+<p><strong>Step 5.</strong> Make a note of your nonce, export the JSON file, and move this file onto a USB.</p>
+<h2 id="Generate-Your-Offline-Transaction"><a href="#Generate-Your-Offline-Transaction" class="headerlink" title="Generate Your Offline Transaction"></a><strong>Generate Your Offline Transaction</strong></h2><p><strong>Step 1.</strong> Plug in the USB to your <strong>offline</strong> computer.</p>
+<p><strong>Step 2.</strong> Access the offline version of MEW on this same offline device.</p>
+<ul>
+<li>This is done by opening ‘Index’ from the file list with your browser.</li>
+<li>If you do not have MEW downloaded for offline use, check out <a href="/ja/offline/using-mew-offline/">this article</a>.</li>
+</ul>
+<p><strong>Step 3.</strong> Access your wallet like you would normally, and choose ‘Send Offline’ from the menu to the left.</p>
+<p><strong>Step 4.</strong> Import your JSON file from the connected USB.</p>
+<ul>
+<li>Alternatively, you can manually fill in your nonce, transaction details, and the address you are sending to, as well as other relevant data.</li>
+</ul>
+<p><strong>Step 5.</strong> If you’re sending to a contract, extra data may cause you to need a higher gas limit.</p>
+<ul>
+<li>Excess gas will be refunded, so don’t be afraid to raise it as high as 100,000.</li>
+</ul>
+<p><strong>Step 6.</strong> Click ‘Generate Transaction’, then copy the long string that says ‘Signed Transaction’ and paste it in a text file, or download a new JSON file holding your signed transaction’s details. Drag this text file or JSON file into your USB for the final step in the process.</p>
+<h2 id="Sign-and-Send-Your-Transaction"><a href="#Sign-and-Send-Your-Transaction" class="headerlink" title="Sign and Send Your Transaction"></a><strong>Sign and Send Your Transaction</strong></h2><p><strong>Step 1.</strong> Head to MyEtherWallet.com once more on your <strong>online</strong> computer.</p>
+<p><strong>Step 2.</strong> At the bottom, in the footer, choose again the ‘Send Offline Helper’ tool.</p>
+<p><strong>Step 3.</strong> Paste in your signed transaction, or import the new JSON file you just received.</p>
+<p><strong>Step 4.</strong> Review the details of your transaction then press ‘Send’. <br></p>
+<p>You’re done! Your transaction will show on an Ethereum blockchain explorer once it’s been verified. It can be searched using the transaction hash shown at the end of the process.</p>
+<div class="youtube-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_6EU1QPU0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+</div>
+
+      </article>
+      <div class="thumbs-and-share-container">
+        <div class="share">
+          <div class="mew___components_share">
+  <div class="wrap">
+    <div class="title">Share to</div>
+    <div><a href="https://www.facebook.com/MyEtherWallet" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+    <div><a href="https://twitter.com/myetherwallet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.linkedin.com/company/myetherwallet" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></div>
+    <div><a href="https://medium.com/@myetherwallet" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="pre-next-posts">
+        
+
+
+<div class="related-posts">
+
+  
+    <div class="pre-post">
+      <div class="button-title">< Previous</div>
+      <p class="post-title">None</p>
+    </div>
+  
+
+  
+    <a href="/ja/offline/offline-mew-looks-weird/">
+      <div class="next-post valid">
+        <div class="button-title">次へ ></div>
+        <p class="post-title">Offline MEW Looks Weird</p>
+      </div>
+    </a>
+  
+
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mobile-content">
+  <div class="breadcrumbs-container page-container hidden">
+    <div class="mew___components_breadcrumbs">
+  <div class="wrap">
+    <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
+    <div><a href="/ja/../categories">カテゴリ</a> >&nbsp;</div>
+    <div class="post-title"><span>[Offline]</span> Making an Offline Transaction</div>
+  </div>  
+</div>
+
+  </div>
+  <div class="article-container page-container">
+    <div class="wrap-sidebar">
+      
+
+
+<aside>
+  <div class="search-form-container hidden">
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://kb.myetherwallet.com"></form>
+  </div>
+  <div class="sidebar-search hidden">
+    <div class="mew___components_sidebar_sidebar-search-form">
+  <input id="sidebar-post-search-form" type="text" placeholder="Search">
+</div>
+
+  </div>
+  <div class="show-list-button">
+    <p>Show all posts</p>
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+  </div>
+  <div class="sidebar-primary-category mobile-post-list">
+    <ul>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline_transaction/">
+              <div class="">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7les0185jj040m8smr0z</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">2</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7l0h006tjj04aiz3jbjh</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">3</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7lbg0116jj04yznqpen4</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline_transaction/">
+              <div class="">
+                <div class="hidden post-index-number">4</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7lbd010zjj04yszt244c</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">5</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7lbb010vjj040amf7iq0</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline_transaction/">
+              <div class="">
+                <div class="hidden post-index-number">6</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7l0j006xjj04pwgdvxrd</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">7</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7l0l0070jj04mssk609k</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">8</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7l3700f2jj04uy3cp6xc</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline_transaction/">
+              <div class="">
+                <div class="hidden post-index-number">9</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7l3800f5jj04qbre4qu3</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">10</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7l3900fajj043psmoonr</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">11</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7l8i00tujj04eg57mhcy</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline_transaction/">
+              <div class="">
+                <div class="hidden post-index-number">12</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7l8g00tnjj040nzp6qjp</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">13</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7lev018cjj04v3stp6is</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">14</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7let0188jj04nxuy8njd</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">15</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7lg501arjj047b03pc4v</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">16</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7l6200mjjj04ahm1b9hx</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/offline/offline_transaction/">
+              <div class="active">
+                <div class="hidden post-index-number">17</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7l6500mnjj04zvime7fp</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">18</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7l6600mqjj049u0hugoq</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+  <div class="sidebar-close-button">Close</div>
+</aside>
+    </div>
+    <div class="wrap-post-body">
+      <article id="post-ja/offline/offline_transaction" class="article article-type-post" itemscope itemprop="blogPost">
+        <h1 id="Making-an-Offline-Transaction"><a href="#Making-an-Offline-Transaction" class="headerlink" title="Making an Offline Transaction"></a><strong>Making an Offline Transaction</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>2 min read</h6><hr>
+<p>If you are <a href="/ja/offline/using-mew-offline/">using MyEtherWallet (MEW) offline and locally</a>, it is not possible to send transactions directly from the offline computer. To send or broadcast a transaction, an internet connection is required. To do this, you should use a second computer that is connected to the internet. This has the advantage of keeping your private key on a separate offline device that won’t be afflicted by malware or hackers.</p>
+<h2 id="Find-the-Nonce-amp-Transaction-Details"><a href="#Find-the-Nonce-amp-Transaction-Details" class="headerlink" title="Find the Nonce &amp; Transaction Details"></a><strong>Find the Nonce &amp; Transaction Details</strong></h2><p><strong>Step 1.</strong> Head to MyEtherWallet.com on your <strong>online</strong> computer.</p>
+<p><strong>Step 2.</strong> At the bottom, in the footer, choose the ‘Send Offline Helper’ tool.</p>
+<p><strong>Step 3.</strong> Choose the network you are interacting with.</p>
+<ul>
+<li>Leave it on ‘ETH’ if you are using Ether or ERC20 tokens.</li>
+</ul>
+<p><strong>Step 4.</strong> Fill in the address you are sending from, and our interface will generate a gas price and nonce for your transaction, along with other details</p>
+<p><strong>Step 5.</strong> Make a note of your nonce, export the JSON file, and move this file onto a USB.</p>
+<h2 id="Generate-Your-Offline-Transaction"><a href="#Generate-Your-Offline-Transaction" class="headerlink" title="Generate Your Offline Transaction"></a><strong>Generate Your Offline Transaction</strong></h2><p><strong>Step 1.</strong> Plug in the USB to your <strong>offline</strong> computer.</p>
+<p><strong>Step 2.</strong> Access the offline version of MEW on this same offline device.</p>
+<ul>
+<li>This is done by opening ‘Index’ from the file list with your browser.</li>
+<li>If you do not have MEW downloaded for offline use, check out <a href="/ja/offline/using-mew-offline/">this article</a>.</li>
+</ul>
+<p><strong>Step 3.</strong> Access your wallet like you would normally, and choose ‘Send Offline’ from the menu to the left.</p>
+<p><strong>Step 4.</strong> Import your JSON file from the connected USB.</p>
+<ul>
+<li>Alternatively, you can manually fill in your nonce, transaction details, and the address you are sending to, as well as other relevant data.</li>
+</ul>
+<p><strong>Step 5.</strong> If you’re sending to a contract, extra data may cause you to need a higher gas limit.</p>
+<ul>
+<li>Excess gas will be refunded, so don’t be afraid to raise it as high as 100,000.</li>
+</ul>
+<p><strong>Step 6.</strong> Click ‘Generate Transaction’, then copy the long string that says ‘Signed Transaction’ and paste it in a text file, or download a new JSON file holding your signed transaction’s details. Drag this text file or JSON file into your USB for the final step in the process.</p>
+<h2 id="Sign-and-Send-Your-Transaction"><a href="#Sign-and-Send-Your-Transaction" class="headerlink" title="Sign and Send Your Transaction"></a><strong>Sign and Send Your Transaction</strong></h2><p><strong>Step 1.</strong> Head to MyEtherWallet.com once more on your <strong>online</strong> computer.</p>
+<p><strong>Step 2.</strong> At the bottom, in the footer, choose again the ‘Send Offline Helper’ tool.</p>
+<p><strong>Step 3.</strong> Paste in your signed transaction, or import the new JSON file you just received.</p>
+<p><strong>Step 4.</strong> Review the details of your transaction then press ‘Send’. <br></p>
+<p>You’re done! Your transaction will show on an Ethereum blockchain explorer once it’s been verified. It can be searched using the transaction hash shown at the end of the process.</p>
+<div class="youtube-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_6EU1QPU0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+</div>
+
+      </article>
+      <div class="thumbs-and-share-container">
+        <div class="share">
+          <div class="mew___components_share">
+  <div class="wrap">
+    <div class="title">Share to</div>
+    <div><a href="https://www.facebook.com/MyEtherWallet" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+    <div><a href="https://twitter.com/myetherwallet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.linkedin.com/company/myetherwallet" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></div>
+    <div><a href="https://medium.com/@myetherwallet" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="pre-next-posts">
+        
+
+
+<div class="related-posts">
+
+  
+    <a href="/ja/offline/offline-mew-looks-weird/">
+      <div class="pre-post valid">
+        <div class="button-title">< Previous</div>
+        <p class="post-title">Offline MEW Looks Weird</p>
+      </div>
+    </a>
+  
+
+  
+    <a href="/ja/offline/using-mew-offline/">
+      <div class="next-post valid">
+        <div class="button-title">次へ ></div>
+        <p class="post-title">Using MEW Offline (Cold Storage)</p>
+      </div>
+    </a>
+  
+
+</div>
+
+
+      </div>
+    </div>
+    <div class="padded-wrap">
+      
+<div class="mew___components_sidebar_customer-support-block">
+  <div class="wrap">
+    <div class="icon-image">
+      <img src="../../../images/mew-icons/customer-support.svg">
+    </div>
+    <div class="content">
+      <div class="title">Customer Support</div>
+      <div class="email-us">
+        <a href="mailto:support@myetherwallet.com" target="_blank">
+          Email us
+          <span>&#x2192;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- .bottom-helpers -->
+
+    </div>
+  </div>
+</div>
+
+
+
+
+      <footer>
+  <div class="page-container">
+    <div class="wrap">
+      <div class="block-left">
+        <p><a href="/ja/../index.html">Home</a></p>
+        <p><a href="https://myetherwallet.com" target="_blank">MyEtherWallet.com</a></p>
+        <p><a href="https://www.myetherwallet.com/privacy-policy" target="_blank">Privacy</a></p>
+        <p><a href="https://www.myetherwallet.com/terms-and-conditions" target="_blank">Terms</a></p>
+      </div>
+      <div class="block-right">
+        <p>© 2018 MyEtherWallet Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+  </div>
+  <div class="site-container mobile-content">
+    <div class="site-wrap">
+      
+
+
+  <header>
+  <div class="header-wrap">
+    <div class="header-top-block">
+  <div class="left">
+    <a href="/ja/../"><img src="../../../images/mew-logo-dark.png"></a>
+    <p>Help Center</p>
+  </div>
+  <div class="right hidden">
+    <ul>
+      
+        <li><a class="main-nav-link" href="/ja/../index.html">Home</a></li>
+      
+        <li><a class="main-nav-link" href="mailto:support@myetherwallet.com">Support</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+    <div class="page-title">
+      <div class="title">Offline</div>
+    </div>
+  </div>
+</header>
+  
+<div class="desktop-content">
+  <div class="breadcrumbs-container page-container">
+    <div class="mew___components_breadcrumbs">
+  <div class="wrap">
+    <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
+    <div><a href="/ja/categories">カテゴリ</a> >&nbsp;</div>
+    <div class="post-title"><span>[Offline]</span> Making an Offline Transaction</div>
+  </div>  
+</div>
+
+  </div>
+  <div class="article-container page-container">
+    <div class="wrap-sidebar">
+      
+
+
+<aside>
+  <div class="search-form-container hidden">
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://kb.myetherwallet.com"></form>
+  </div>
+  <div class="sidebar-search">
+    <div class="mew___components_sidebar_sidebar-search-form">
+  <input id="sidebar-post-search-form" type="text" placeholder="Search">
+</div>
+
+  </div>
+  <div class="sidebar-primary-category">
+    <ul>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/offline/offline_transaction/">
+              <div class="active">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7l6500mnjj04zvime7fp</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">2</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7l6200mjjj04ahm1b9hx</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">3</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7l6600mqjj049u0hugoq</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+  <div class="customer">
+    
+<div class="mew___components_sidebar_customer-support-block">
+  <div class="wrap">
+    <div class="icon-image">
+      <img src="../../../images/mew-icons/customer-support.svg">
+    </div>
+    <div class="content">
+      <div class="title">Customer Support</div>
+      <div class="email-us">
+        <a href="mailto:support@myetherwallet.com" target="_blank">
+          Email us
+          <span>&#x2192;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- .bottom-helpers -->
+
+  </div>
+</aside>
+    </div>
+    <div class="wrap-post-body">
+      <article id="post-ja/offline/offline_transaction" class="article article-type-post" itemscope itemprop="blogPost">
+        <h1 id="Making-an-Offline-Transaction"><a href="#Making-an-Offline-Transaction" class="headerlink" title="Making an Offline Transaction"></a><strong>Making an Offline Transaction</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>2 min read</h6><hr>
+<p>If you are <a href="/ja/offline/using-mew-offline/">using MyEtherWallet (MEW) offline and locally</a>, it is not possible to send transactions directly from the offline computer. To send or broadcast a transaction, an internet connection is required. To do this, you should use a second computer that is connected to the internet. This has the advantage of keeping your private key on a separate offline device that won’t be afflicted by malware or hackers.</p>
+<h2 id="Find-the-Nonce-amp-Transaction-Details"><a href="#Find-the-Nonce-amp-Transaction-Details" class="headerlink" title="Find the Nonce &amp; Transaction Details"></a><strong>Find the Nonce &amp; Transaction Details</strong></h2><p><strong>Step 1.</strong> Head to MyEtherWallet.com on your <strong>online</strong> computer.</p>
+<p><strong>Step 2.</strong> At the bottom, in the footer, choose the ‘Send Offline Helper’ tool.</p>
+<p><strong>Step 3.</strong> Choose the network you are interacting with.</p>
+<ul>
+<li>Leave it on ‘ETH’ if you are using Ether or ERC20 tokens.</li>
+</ul>
+<p><strong>Step 4.</strong> Fill in the address you are sending from, and our interface will generate a gas price and nonce for your transaction, along with other details</p>
+<p><strong>Step 5.</strong> Make a note of your nonce, export the JSON file, and move this file onto a USB.</p>
+<h2 id="Generate-Your-Offline-Transaction"><a href="#Generate-Your-Offline-Transaction" class="headerlink" title="Generate Your Offline Transaction"></a><strong>Generate Your Offline Transaction</strong></h2><p><strong>Step 1.</strong> Plug in the USB to your <strong>offline</strong> computer.</p>
+<p><strong>Step 2.</strong> Access the offline version of MEW on this same offline device.</p>
+<ul>
+<li>This is done by opening ‘Index’ from the file list with your browser.</li>
+<li>If you do not have MEW downloaded for offline use, check out <a href="/ja/offline/using-mew-offline/">this article</a>.</li>
+</ul>
+<p><strong>Step 3.</strong> Access your wallet like you would normally, and choose ‘Send Offline’ from the menu to the left.</p>
+<p><strong>Step 4.</strong> Import your JSON file from the connected USB.</p>
+<ul>
+<li>Alternatively, you can manually fill in your nonce, transaction details, and the address you are sending to, as well as other relevant data.</li>
+</ul>
+<p><strong>Step 5.</strong> If you’re sending to a contract, extra data may cause you to need a higher gas limit.</p>
+<ul>
+<li>Excess gas will be refunded, so don’t be afraid to raise it as high as 100,000.</li>
+</ul>
+<p><strong>Step 6.</strong> Click ‘Generate Transaction’, then copy the long string that says ‘Signed Transaction’ and paste it in a text file, or download a new JSON file holding your signed transaction’s details. Drag this text file or JSON file into your USB for the final step in the process.</p>
+<h2 id="Sign-and-Send-Your-Transaction"><a href="#Sign-and-Send-Your-Transaction" class="headerlink" title="Sign and Send Your Transaction"></a><strong>Sign and Send Your Transaction</strong></h2><p><strong>Step 1.</strong> Head to MyEtherWallet.com once more on your <strong>online</strong> computer.</p>
+<p><strong>Step 2.</strong> At the bottom, in the footer, choose again the ‘Send Offline Helper’ tool.</p>
+<p><strong>Step 3.</strong> Paste in your signed transaction, or import the new JSON file you just received.</p>
+<p><strong>Step 4.</strong> Review the details of your transaction then press ‘Send’. <br></p>
+<p>You’re done! Your transaction will show on an Ethereum blockchain explorer once it’s been verified. It can be searched using the transaction hash shown at the end of the process.</p>
+<div class="youtube-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_6EU1QPU0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+</div>
+
+      </article>
+      <div class="thumbs-and-share-container">
+        <div class="share">
+          <div class="mew___components_share">
+  <div class="wrap">
+    <div class="title">Share to</div>
+    <div><a href="https://www.facebook.com/MyEtherWallet" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+    <div><a href="https://twitter.com/myetherwallet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.linkedin.com/company/myetherwallet" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></div>
+    <div><a href="https://medium.com/@myetherwallet" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="pre-next-posts">
+        
+
+
+<div class="related-posts">
+
+  
+    <div class="pre-post">
+      <div class="button-title">< Previous</div>
+      <p class="post-title">None</p>
+    </div>
+  
+
+  
+    <a href="/ja/offline/offline-mew-looks-weird/">
+      <div class="next-post valid">
+        <div class="button-title">次へ ></div>
+        <p class="post-title">Offline MEW Looks Weird</p>
+      </div>
+    </a>
+  
+
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mobile-content">
+  <div class="breadcrumbs-container page-container hidden">
+    <div class="mew___components_breadcrumbs">
+  <div class="wrap">
+    <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
+    <div><a href="/ja/../categories">カテゴリ</a> >&nbsp;</div>
+    <div class="post-title"><span>[Offline]</span> Making an Offline Transaction</div>
+  </div>  
+</div>
+
+  </div>
+  <div class="article-container page-container">
+    <div class="wrap-sidebar">
+      
+
+
+<aside>
+  <div class="search-form-container hidden">
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://kb.myetherwallet.com"></form>
+  </div>
+  <div class="sidebar-search hidden">
+    <div class="mew___components_sidebar_sidebar-search-form">
+  <input id="sidebar-post-search-form" type="text" placeholder="Search">
+</div>
+
+  </div>
+  <div class="show-list-button">
+    <p>Show all posts</p>
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+  </div>
+  <div class="sidebar-primary-category mobile-post-list">
+    <ul>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline_transaction/">
+              <div class="">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7les0185jj040m8smr0z</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">2</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7l0h006tjj04aiz3jbjh</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">3</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7lbg0116jj04yznqpen4</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline_transaction/">
+              <div class="">
+                <div class="hidden post-index-number">4</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7lbd010zjj04yszt244c</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">5</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7lbb010vjj040amf7iq0</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline_transaction/">
+              <div class="">
+                <div class="hidden post-index-number">6</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7l0j006xjj04pwgdvxrd</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">7</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7l0l0070jj04mssk609k</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">8</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7l3700f2jj04uy3cp6xc</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline_transaction/">
+              <div class="">
+                <div class="hidden post-index-number">9</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7l3800f5jj04qbre4qu3</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">10</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7l3900fajj043psmoonr</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">11</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7l8i00tujj04eg57mhcy</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline_transaction/">
+              <div class="">
+                <div class="hidden post-index-number">12</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7l8g00tnjj040nzp6qjp</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">13</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7lev018cjj04v3stp6is</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">14</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7let0188jj04nxuy8njd</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/../offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">15</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7lg501arjj047b03pc4v</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/offline/offline-mew-looks-weird/">
+              <div class="">
+                <div class="hidden post-index-number">16</div>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">cjx5g7l6200mjjj04ahm1b9hx</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/offline/offline_transaction/">
+              <div class="active">
+                <div class="hidden post-index-number">17</div>
+                <p class="post-title">Making an Offline Transaction</p>
+                <p class="hidden">cjx5g7l6500mnjj04zvime7fp</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/ja/offline/using-mew-offline/">
+              <div class="">
+                <div class="hidden post-index-number">18</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">cjx5g7l6600mqjj049u0hugoq</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+  <div class="sidebar-close-button">Close</div>
+</aside>
+    </div>
+    <div class="wrap-post-body">
+      <article id="post-ja/offline/offline_transaction" class="article article-type-post" itemscope itemprop="blogPost">
+        <h1 id="Making-an-Offline-Transaction"><a href="#Making-an-Offline-Transaction" class="headerlink" title="Making an Offline Transaction"></a><strong>Making an Offline Transaction</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>2 min read</h6><hr>
+<p>If you are <a href="/ja/offline/using-mew-offline/">using MyEtherWallet (MEW) offline and locally</a>, it is not possible to send transactions directly from the offline computer. To send or broadcast a transaction, an internet connection is required. To do this, you should use a second computer that is connected to the internet. This has the advantage of keeping your private key on a separate offline device that won’t be afflicted by malware or hackers.</p>
+<h2 id="Find-the-Nonce-amp-Transaction-Details"><a href="#Find-the-Nonce-amp-Transaction-Details" class="headerlink" title="Find the Nonce &amp; Transaction Details"></a><strong>Find the Nonce &amp; Transaction Details</strong></h2><p><strong>Step 1.</strong> Head to MyEtherWallet.com on your <strong>online</strong> computer.</p>
+<p><strong>Step 2.</strong> At the bottom, in the footer, choose the ‘Send Offline Helper’ tool.</p>
+<p><strong>Step 3.</strong> Choose the network you are interacting with.</p>
+<ul>
+<li>Leave it on ‘ETH’ if you are using Ether or ERC20 tokens.</li>
+</ul>
+<p><strong>Step 4.</strong> Fill in the address you are sending from, and our interface will generate a gas price and nonce for your transaction, along with other details</p>
+<p><strong>Step 5.</strong> Make a note of your nonce, export the JSON file, and move this file onto a USB.</p>
+<h2 id="Generate-Your-Offline-Transaction"><a href="#Generate-Your-Offline-Transaction" class="headerlink" title="Generate Your Offline Transaction"></a><strong>Generate Your Offline Transaction</strong></h2><p><strong>Step 1.</strong> Plug in the USB to your <strong>offline</strong> computer.</p>
+<p><strong>Step 2.</strong> Access the offline version of MEW on this same offline device.</p>
+<ul>
+<li>This is done by opening ‘Index’ from the file list with your browser.</li>
+<li>If you do not have MEW downloaded for offline use, check out <a href="/ja/offline/using-mew-offline/">this article</a>.</li>
+</ul>
+<p><strong>Step 3.</strong> Access your wallet like you would normally, and choose ‘Send Offline’ from the menu to the left.</p>
+<p><strong>Step 4.</strong> Import your JSON file from the connected USB.</p>
+<ul>
+<li>Alternatively, you can manually fill in your nonce, transaction details, and the address you are sending to, as well as other relevant data.</li>
+</ul>
+<p><strong>Step 5.</strong> If you’re sending to a contract, extra data may cause you to need a higher gas limit.</p>
+<ul>
+<li>Excess gas will be refunded, so don’t be afraid to raise it as high as 100,000.</li>
+</ul>
+<p><strong>Step 6.</strong> Click ‘Generate Transaction’, then copy the long string that says ‘Signed Transaction’ and paste it in a text file, or download a new JSON file holding your signed transaction’s details. Drag this text file or JSON file into your USB for the final step in the process.</p>
+<h2 id="Sign-and-Send-Your-Transaction"><a href="#Sign-and-Send-Your-Transaction" class="headerlink" title="Sign and Send Your Transaction"></a><strong>Sign and Send Your Transaction</strong></h2><p><strong>Step 1.</strong> Head to MyEtherWallet.com once more on your <strong>online</strong> computer.</p>
+<p><strong>Step 2.</strong> At the bottom, in the footer, choose again the ‘Send Offline Helper’ tool.</p>
+<p><strong>Step 3.</strong> Paste in your signed transaction, or import the new JSON file you just received.</p>
+<p><strong>Step 4.</strong> Review the details of your transaction then press ‘Send’. <br></p>
+<p>You’re done! Your transaction will show on an Ethereum blockchain explorer once it’s been verified. It can be searched using the transaction hash shown at the end of the process.</p>
+<div class="youtube-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_6EU1QPU0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+</div>
+
+      </article>
+      <div class="thumbs-and-share-container">
+        <div class="share">
+          <div class="mew___components_share">
+  <div class="wrap">
+    <div class="title">Share to</div>
+    <div><a href="https://www.facebook.com/MyEtherWallet" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+    <div><a href="https://twitter.com/myetherwallet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.linkedin.com/company/myetherwallet" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></div>
+    <div><a href="https://medium.com/@myetherwallet" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="pre-next-posts">
+        
+
+
+<div class="related-posts">
+
+  
+    <a href="/ja/offline/offline-mew-looks-weird/">
+      <div class="pre-post valid">
+        <div class="button-title">< Previous</div>
+        <p class="post-title">Offline MEW Looks Weird</p>
+      </div>
+    </a>
+  
+
+  
+    <a href="/ja/offline/using-mew-offline/">
+      <div class="next-post valid">
+        <div class="button-title">次へ ></div>
+        <p class="post-title">Using MEW Offline (Cold Storage)</p>
+      </div>
+    </a>
+  
+
+</div>
+
+
+      </div>
+    </div>
+    <div class="padded-wrap">
+      
+<div class="mew___components_sidebar_customer-support-block">
+  <div class="wrap">
+    <div class="icon-image">
+      <img src="../../../images/mew-icons/customer-support.svg">
+    </div>
+    <div class="content">
+      <div class="title">Customer Support</div>
+      <div class="email-us">
+        <a href="mailto:support@myetherwallet.com" target="_blank">
+          Email us
+          <span>&#x2192;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- .bottom-helpers -->
+
+    </div>
+  </div>
+</div>
+
+
+
+
+      <footer>
+  <div class="page-container">
+    <div class="wrap">
+      <div class="block-left">
+        <p><a href="/ja/../index.html">Home</a></p>
+        <p class="hidden"><a href="https://myetherwallet.com" target="_blank">MyEtherWallet.com</a></p>
+        <p><a href="https://www.myetherwallet.com/privacy-policy" target="_blank">Privacy</a></p>
+        <p><a href="https://www.myetherwallet.com/terms-and-conditions" target="_blank">Terms</a></p>
+      </div>
+      <div class="block-right">
+        <p>© 2018 MyEtherWallet Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+  </div>
+
+  <script src="../../../js/jquery.min.js"></script>
+<script src="../../../js/initialization.js"></script>
+<script src="../../../js/mew/accordion.js"></script>
+<script src="../../../js/mew/youtube-popup.js"></script>
+<script src="../../../js/mew/sidebar.js"></script>
+<script src="../../../js/mew/sidebar-post-search.js"></script>
+<script src="../../../js/mew/header-post-search.js"></script>
+
+</body>
+</html>
