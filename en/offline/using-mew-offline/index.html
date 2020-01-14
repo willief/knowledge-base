@@ -39,8 +39,8 @@
             
                 <li><a class="main-nav-link" href="mailto:support@myetherwallet.com">Support</a></li>
             
-            <li>
-                <label id="lang-select-label" for="lang-select" class="lang-nav-link"><i class="fa fa-globe"></i><span class="lang-nav-link">English</span></label>
+<!--            <li>
+                <label id="lang-select-label" for="lang-select" class="lang-nav-link"><img src="../../../images/flags/en.svg" width="40" height="20"></label>
                 <select id="lang-select" class="hidden" data-canonical="offline/using-mew-offline/index.html">
                     <option >Select Language</option>
                     
@@ -57,7 +57,7 @@
                     <option value="zh">简体中文</option>
                     
                 </select>
-            </li>
+            </li>-->
         </ul>
     </div>
 </div>
@@ -114,13 +114,34 @@
         
       
         
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/offline/using-mew-offline/">
+              <div class="active">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">ck5egjthr003zwl04f8rxpzcy</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
           
           <li class="primary-category-post-title">
             <a href="/en/offline/offline_transaction/">
               <div class="">
-                <div class="hidden post-index-number">1</div>
+                <div class="hidden post-index-number">2</div>
                 <p class="post-title">Making an Offline Transaction</p>
-                <p class="hidden">cjx5h1qh000fvvy04t51utit6</p>
+                <p class="hidden">ck5egjthp003xwl04napi1y5r</p>
               </div>
             </a>
           </li>
@@ -131,45 +152,32 @@
           <li class="primary-category-post-title">
             <a href="/en/offline/offline-mew-looks-weird/">
               <div class="">
-                <div class="hidden post-index-number">2</div>
-                <p class="post-title">Offline MEW Looks Weird</p>
-                <p class="hidden">cjx5h1qgz00fsvy04av2ztsvc</p>
-              </div>
-            </a>
-          </li>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-          <li class="primary-category-post-title">
-            <a href="/en/offline/using-mew-offline/">
-              <div class="active">
                 <div class="hidden post-index-number">3</div>
-                <p class="post-title">Using MEW Offline (Cold Storage)</p>
-                <p class="hidden">cjx5h1qh100fzvy049hk158pv</p>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">ck5egjthn003uwl04vh71mx84</p>
               </div>
             </a>
           </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         
@@ -309,8 +317,52 @@
     </div>
     <div class="wrap-post-body">
       <article id="post-en/offline/using-mew-offline" class="article article-type-post" itemscope itemprop="blogPost">
-        <h1 id="Using-MEW-Offline-Cold-Storage"><a href="#Using-MEW-Offline-Cold-Storage" class="headerlink" title="Using MEW Offline (Cold Storage)"></a><strong>Using MEW Offline (Cold Storage)</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>2 min read</h6><hr>
-<p>For increased security, you can run MyEtherWallet (MEW) on your local computer, instead of from the GitHub servers through our website. The computer being used should not be connected to the internet. You can generate a wallet completely offline and send transactions on a different computer, which must be connected to the internet, from our ‘Send Offline’ section. In this way, your sensitive information (i.e. private key, keystore file, mnemonic phrase) is kept on an offline device, and it is never transmitted off your device.</p>
+        <h1 id="Using-MEW-Offline-Cold-Storage"><a href="#Using-MEW-Offline-Cold-Storage" class="headerlink" title="Using MEW Offline (Cold Storage)"></a><strong>Using MEW Offline (Cold Storage)</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>3 min read</h6><hr>
+<p>For increased security, you can run MyEtherWallet (MEW) on your local computer, instead of from the GitHub servers through our website. The main computer being used to generate the transactions should not be connected to the internet. You can generate a wallet completely offline and send transactions on a different computer, which must be connected to the internet, from our ‘Send Offline’ section. In this way, your sensitive information (i.e. private key, keystore file, mnemonic phrase) is kept on an offline device, and it is never transmitted off your device.</p>
+<p>There are two ways to use MEW offline, through the use of PWA or by downloading the client.</p>
+<h2 id="Using-MEW-Offline-as-a-Progressive-Web-App-PWA"><a href="#Using-MEW-Offline-as-a-Progressive-Web-App-PWA" class="headerlink" title="Using MEW Offline as a Progressive Web App (PWA)"></a><strong>Using MEW Offline as a Progressive Web App (PWA)</strong></h2><p><strong>Step 1.</strong> In order to use MEW as a PWA, you’ll first need to head to our website on Google Chrome and install MEW, as shown below. </p>
+<img src="/images/posts/offline/offline1pwa.png" width="80%">
+
+<p><strong>Step 2.</strong> On your <strong>online</strong> computer, scroll down to the footer to find our Offline Helper tool.</p>
+<img src="/images/posts/offline/offline2pwa.png" width="80%">
+
+<p><strong>Step 3.</strong> Enter the address you’re sending <strong>from</strong> and click ‘Export JSON File’. </p>
+<ul>
+<li>Keep this safe, you’ll need it momentarily on your offline computer. Export it onto a USB for easy transfer.</li>
+</ul>
+<img src="/images/posts/offline/offline3pwa.png" width="80%">
+
+<p><strong>Step 4.</strong> On your <strong>offline</strong> computer, access your wallet as you would normally.</p>
+<ul>
+<li>It will look a bit strange, since you’re offline.</li>
+</ul>
+<img src="/images/posts/offline/offline4pwa.png" width="80%">
+
+<p><strong>Step 5.</strong> To the left, select ‘Send Offline’.</p>
+<img src="/images/posts/offline/offline5pwa.png" width="80%">
+
+<p><strong>Step 6.</strong> Scroll down and import the JSON file you received earlier. This will fill in a few details. After that, paste the address you’re sending <strong>to</strong> and the amount you’d like to send.</p>
+<img src="/images/posts/offline/offline6pwa.png" width="80%">
+
+<p><strong>Step 7.</strong> Now select ‘Generate Transaction’ and download the JSON file, or copy the Signed Transaction.</p>
+<ul>
+<li>You’ll need to use the USB from before for this step as well.</li>
+</ul>
+<img src="/images/posts/offline/offline7pwa.png" width="80%">
+
+<p><strong>Step 8.</strong> Back to your <strong>online</strong> computer, head to the Offline Helper tool again and enter the Signed Transaction section. </p>
+<ul>
+<li>Upload the JSON file here, or paste the Signed Transaction. Details should generate in the next section.</li>
+</ul>
+<img src="/images/posts/offline/offline8pwa.png" width="80%">
+
+<p><strong>Step 9.</strong> Double-check all your transaction details, then click ‘Send’. </p>
+<img src="/images/posts/offline/offline9pwa.png" width="80%">
+
+<p><strong>Step 10.</strong> You’re done! You’ve just sent an offline transaction.</p>
+<img src="/images/posts/offline/offline10pwa.png" width="80%">
+
+
 <h2 id="Downloading-and-Running-MEW-Offline"><a href="#Downloading-and-Running-MEW-Offline" class="headerlink" title="Downloading and Running MEW Offline"></a><strong>Downloading and Running MEW Offline</strong></h2><p><strong>Step 1.</strong> In order to set up your local MEW, start by downloading the latest release of MEW <a href="https://github.com/MyEtherWallet/MyEtherWallet/releases" target="_blank" rel="noopener">here</a>.</p>
 <img src="/images/posts/offline/MEWoffline1.png" width="80%">
 
@@ -324,8 +376,7 @@
 <img src="/images/posts/offline/MEWoffline4.png" width="80%">
 
 <p>Congratulations, you’re running MEW offline! Make sure to repeat this process periodically, to ensure you’re on the most up-to-date version of our interface.</p>
-<p>Read this article for more information on <a href="/en/getting-started/how-to-create-a-wallet/">how to create a wallet</a>.
-Read this article if you’d like to know <a href="/en/offline/offline_transaction/">how to send an offline transaction</a>.</p>
+<p>Read this article for more information on <a href="/en/getting-started/how-to-create-a-wallet/">how to create a wallet</a>.<br>Read this article if you’d like to know <a href="/en/offline/offline_transaction/">how to send an offline transaction</a>.</p>
 
       </article>
       <div class="thumbs-and-share-container">
@@ -350,19 +401,19 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
 <div class="related-posts">
 
   
-    <a href="/en/offline/offline-mew-looks-weird/">
-      <div class="pre-post valid">
-        <div class="button-title">< Previous</div>
-        <p class="post-title">Offline MEW Looks Weird</p>
-      </div>
-    </a>
+    <div class="pre-post">
+      <div class="button-title">< Previous</div>
+      <p class="post-title">None</p>
+    </div>
   
 
   
-    <div class="next-post">
-      <div class="button-title">Next ></div>
-      <p class="post-title">None</p>
-    </div>
+    <a href="/en/offline/offline_transaction/">
+      <div class="next-post valid">
+        <div class="button-title">Next ></div>
+        <p class="post-title">Making an Offline Transaction</p>
+      </div>
+    </a>
   
 
 </div>
@@ -377,7 +428,7 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
     <div class="mew___components_breadcrumbs">
   <div class="wrap">
     <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
-    <div><a href="/en/categories">Categories</a> >&nbsp;</div>
+    <div><a href="/en/../categories">Categories</a> >&nbsp;</div>
     <div class="post-title"><span>[Offline]</span> Using MEW Offline (Cold Storage)</div>
   </div>  
 </div>
@@ -421,13 +472,34 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
         
       
         
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/offline/using-mew-offline/">
+              <div class="active">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">ck5egjthr003zwl04f8rxpzcy</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
           
           <li class="primary-category-post-title">
             <a href="/en/offline/offline_transaction/">
               <div class="">
-                <div class="hidden post-index-number">1</div>
+                <div class="hidden post-index-number">2</div>
                 <p class="post-title">Making an Offline Transaction</p>
-                <p class="hidden">cjx5h1qh000fvvy04t51utit6</p>
+                <p class="hidden">ck5egjthp003xwl04napi1y5r</p>
               </div>
             </a>
           </li>
@@ -438,45 +510,32 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
           <li class="primary-category-post-title">
             <a href="/en/offline/offline-mew-looks-weird/">
               <div class="">
-                <div class="hidden post-index-number">2</div>
-                <p class="post-title">Offline MEW Looks Weird</p>
-                <p class="hidden">cjx5h1qgz00fsvy04av2ztsvc</p>
-              </div>
-            </a>
-          </li>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-          <li class="primary-category-post-title">
-            <a href="/en/offline/using-mew-offline/">
-              <div class="active">
                 <div class="hidden post-index-number">3</div>
-                <p class="post-title">Using MEW Offline (Cold Storage)</p>
-                <p class="hidden">cjx5h1qh100fzvy049hk158pv</p>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">ck5egjthn003uwl04vh71mx84</p>
               </div>
             </a>
           </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         
@@ -596,8 +655,52 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
     </div>
     <div class="wrap-post-body">
       <article id="post-en/offline/using-mew-offline" class="article article-type-post" itemscope itemprop="blogPost">
-        <h1 id="Using-MEW-Offline-Cold-Storage"><a href="#Using-MEW-Offline-Cold-Storage" class="headerlink" title="Using MEW Offline (Cold Storage)"></a><strong>Using MEW Offline (Cold Storage)</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>2 min read</h6><hr>
-<p>For increased security, you can run MyEtherWallet (MEW) on your local computer, instead of from the GitHub servers through our website. The computer being used should not be connected to the internet. You can generate a wallet completely offline and send transactions on a different computer, which must be connected to the internet, from our ‘Send Offline’ section. In this way, your sensitive information (i.e. private key, keystore file, mnemonic phrase) is kept on an offline device, and it is never transmitted off your device.</p>
+        <h1 id="Using-MEW-Offline-Cold-Storage"><a href="#Using-MEW-Offline-Cold-Storage" class="headerlink" title="Using MEW Offline (Cold Storage)"></a><strong>Using MEW Offline (Cold Storage)</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>3 min read</h6><hr>
+<p>For increased security, you can run MyEtherWallet (MEW) on your local computer, instead of from the GitHub servers through our website. The main computer being used to generate the transactions should not be connected to the internet. You can generate a wallet completely offline and send transactions on a different computer, which must be connected to the internet, from our ‘Send Offline’ section. In this way, your sensitive information (i.e. private key, keystore file, mnemonic phrase) is kept on an offline device, and it is never transmitted off your device.</p>
+<p>There are two ways to use MEW offline, through the use of PWA or by downloading the client.</p>
+<h2 id="Using-MEW-Offline-as-a-Progressive-Web-App-PWA"><a href="#Using-MEW-Offline-as-a-Progressive-Web-App-PWA" class="headerlink" title="Using MEW Offline as a Progressive Web App (PWA)"></a><strong>Using MEW Offline as a Progressive Web App (PWA)</strong></h2><p><strong>Step 1.</strong> In order to use MEW as a PWA, you’ll first need to head to our website on Google Chrome and install MEW, as shown below. </p>
+<img src="/images/posts/offline/offline1pwa.png" width="80%">
+
+<p><strong>Step 2.</strong> On your <strong>online</strong> computer, scroll down to the footer to find our Offline Helper tool.</p>
+<img src="/images/posts/offline/offline2pwa.png" width="80%">
+
+<p><strong>Step 3.</strong> Enter the address you’re sending <strong>from</strong> and click ‘Export JSON File’. </p>
+<ul>
+<li>Keep this safe, you’ll need it momentarily on your offline computer. Export it onto a USB for easy transfer.</li>
+</ul>
+<img src="/images/posts/offline/offline3pwa.png" width="80%">
+
+<p><strong>Step 4.</strong> On your <strong>offline</strong> computer, access your wallet as you would normally.</p>
+<ul>
+<li>It will look a bit strange, since you’re offline.</li>
+</ul>
+<img src="/images/posts/offline/offline4pwa.png" width="80%">
+
+<p><strong>Step 5.</strong> To the left, select ‘Send Offline’.</p>
+<img src="/images/posts/offline/offline5pwa.png" width="80%">
+
+<p><strong>Step 6.</strong> Scroll down and import the JSON file you received earlier. This will fill in a few details. After that, paste the address you’re sending <strong>to</strong> and the amount you’d like to send.</p>
+<img src="/images/posts/offline/offline6pwa.png" width="80%">
+
+<p><strong>Step 7.</strong> Now select ‘Generate Transaction’ and download the JSON file, or copy the Signed Transaction.</p>
+<ul>
+<li>You’ll need to use the USB from before for this step as well.</li>
+</ul>
+<img src="/images/posts/offline/offline7pwa.png" width="80%">
+
+<p><strong>Step 8.</strong> Back to your <strong>online</strong> computer, head to the Offline Helper tool again and enter the Signed Transaction section. </p>
+<ul>
+<li>Upload the JSON file here, or paste the Signed Transaction. Details should generate in the next section.</li>
+</ul>
+<img src="/images/posts/offline/offline8pwa.png" width="80%">
+
+<p><strong>Step 9.</strong> Double-check all your transaction details, then click ‘Send’. </p>
+<img src="/images/posts/offline/offline9pwa.png" width="80%">
+
+<p><strong>Step 10.</strong> You’re done! You’ve just sent an offline transaction.</p>
+<img src="/images/posts/offline/offline10pwa.png" width="80%">
+
+
 <h2 id="Downloading-and-Running-MEW-Offline"><a href="#Downloading-and-Running-MEW-Offline" class="headerlink" title="Downloading and Running MEW Offline"></a><strong>Downloading and Running MEW Offline</strong></h2><p><strong>Step 1.</strong> In order to set up your local MEW, start by downloading the latest release of MEW <a href="https://github.com/MyEtherWallet/MyEtherWallet/releases" target="_blank" rel="noopener">here</a>.</p>
 <img src="/images/posts/offline/MEWoffline1.png" width="80%">
 
@@ -611,8 +714,7 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
 <img src="/images/posts/offline/MEWoffline4.png" width="80%">
 
 <p>Congratulations, you’re running MEW offline! Make sure to repeat this process periodically, to ensure you’re on the most up-to-date version of our interface.</p>
-<p>Read this article for more information on <a href="/en/getting-started/how-to-create-a-wallet/">how to create a wallet</a>.
-Read this article if you’d like to know <a href="/en/offline/offline_transaction/">how to send an offline transaction</a>.</p>
+<p>Read this article for more information on <a href="/en/getting-started/how-to-create-a-wallet/">how to create a wallet</a>.<br>Read this article if you’d like to know <a href="/en/offline/offline_transaction/">how to send an offline transaction</a>.</p>
 
       </article>
       <div class="thumbs-and-share-container">
@@ -637,19 +739,19 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
 <div class="related-posts">
 
   
-    <a href="/en/offline/offline-mew-looks-weird/">
-      <div class="pre-post valid">
-        <div class="button-title">< Previous</div>
-        <p class="post-title">Offline MEW Looks Weird</p>
-      </div>
-    </a>
+    <div class="pre-post">
+      <div class="button-title">< Previous</div>
+      <p class="post-title">None</p>
+    </div>
   
 
   
-    <div class="next-post">
-      <div class="button-title">Next ></div>
-      <p class="post-title">None</p>
-    </div>
+    <a href="/en/offline/offline_transaction/">
+      <div class="next-post valid">
+        <div class="button-title">Next ></div>
+        <p class="post-title">Making an Offline Transaction</p>
+      </div>
+    </a>
   
 
 </div>
@@ -705,12 +807,32 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
     <div class="site-wrap">
       
 
-
   <header>
   <div class="header-wrap">
     <div class="header-top-block">
+<!--  <div class="upper-menu">
+    <label id="lang-select-label" for="lang-select" class="lang-nav-link lang-choices lang-flag"><img src="../../../images/flags/en.svg" width="20" height="10"></label>
+    <select id="lang-select" class="hidden lang-choices" data-canonical="offline/using-mew-offline/index.html">
+      <option value="en">Select Language</option>
+      
+        <option value="ru">Русский</option>
+      
+        <option value="en" selected>English</option>
+      
+        <option value="ko">한국어</option>
+      
+        <option value="ja">日本語</option>
+      
+        <option value="es">español</option>
+      
+        <option value="zh">简体中文</option>
+      
+    </select>
+  </div>-->
   <div class="left">
     <a href="/en/../"><img src="../../../images/mew-logo-dark.png"></a>
+  </div>
+  <div class="menu">
     <p>Help Center</p>
   </div>
   <div class="right hidden">
@@ -720,25 +842,6 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
       
         <li><a class="main-nav-link" href="mailto:support@myetherwallet.com">Support</a></li>
       
-        <li>
-          <label id="lang-select-label" for="lang-select" class="lang-nav-link"><i class="fa fa-globe"></i><span class="lang-nav-link">English</span></label>
-          <select id="lang-select" class="hidden" data-canonical="offline/using-mew-offline/index.html">
-            <option >Select Language</option>
-            
-              <option value="ru">Русский</option>
-            
-              <option value="en" selected>English</option>
-            
-              <option value="ko">한국어</option>
-            
-              <option value="ja">日本語</option>
-            
-              <option value="es">español</option>
-            
-              <option value="zh">简体中文</option>
-            
-          </select>
-        </li>
     </ul>
   </div>
 </div>
@@ -794,13 +897,34 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
         
       
         
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/offline/using-mew-offline/">
+              <div class="active">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">ck5egjthr003zwl04f8rxpzcy</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
           
           <li class="primary-category-post-title">
             <a href="/en/offline/offline_transaction/">
               <div class="">
-                <div class="hidden post-index-number">1</div>
+                <div class="hidden post-index-number">2</div>
                 <p class="post-title">Making an Offline Transaction</p>
-                <p class="hidden">cjx5h1qh000fvvy04t51utit6</p>
+                <p class="hidden">ck5egjthp003xwl04napi1y5r</p>
               </div>
             </a>
           </li>
@@ -811,45 +935,32 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
           <li class="primary-category-post-title">
             <a href="/en/offline/offline-mew-looks-weird/">
               <div class="">
-                <div class="hidden post-index-number">2</div>
-                <p class="post-title">Offline MEW Looks Weird</p>
-                <p class="hidden">cjx5h1qgz00fsvy04av2ztsvc</p>
-              </div>
-            </a>
-          </li>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-          <li class="primary-category-post-title">
-            <a href="/en/offline/using-mew-offline/">
-              <div class="active">
                 <div class="hidden post-index-number">3</div>
-                <p class="post-title">Using MEW Offline (Cold Storage)</p>
-                <p class="hidden">cjx5h1qh100fzvy049hk158pv</p>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">ck5egjthn003uwl04vh71mx84</p>
               </div>
             </a>
           </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         
@@ -989,8 +1100,52 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
     </div>
     <div class="wrap-post-body">
       <article id="post-en/offline/using-mew-offline" class="article article-type-post" itemscope itemprop="blogPost">
-        <h1 id="Using-MEW-Offline-Cold-Storage"><a href="#Using-MEW-Offline-Cold-Storage" class="headerlink" title="Using MEW Offline (Cold Storage)"></a><strong>Using MEW Offline (Cold Storage)</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>2 min read</h6><hr>
-<p>For increased security, you can run MyEtherWallet (MEW) on your local computer, instead of from the GitHub servers through our website. The computer being used should not be connected to the internet. You can generate a wallet completely offline and send transactions on a different computer, which must be connected to the internet, from our ‘Send Offline’ section. In this way, your sensitive information (i.e. private key, keystore file, mnemonic phrase) is kept on an offline device, and it is never transmitted off your device.</p>
+        <h1 id="Using-MEW-Offline-Cold-Storage"><a href="#Using-MEW-Offline-Cold-Storage" class="headerlink" title="Using MEW Offline (Cold Storage)"></a><strong>Using MEW Offline (Cold Storage)</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>3 min read</h6><hr>
+<p>For increased security, you can run MyEtherWallet (MEW) on your local computer, instead of from the GitHub servers through our website. The main computer being used to generate the transactions should not be connected to the internet. You can generate a wallet completely offline and send transactions on a different computer, which must be connected to the internet, from our ‘Send Offline’ section. In this way, your sensitive information (i.e. private key, keystore file, mnemonic phrase) is kept on an offline device, and it is never transmitted off your device.</p>
+<p>There are two ways to use MEW offline, through the use of PWA or by downloading the client.</p>
+<h2 id="Using-MEW-Offline-as-a-Progressive-Web-App-PWA"><a href="#Using-MEW-Offline-as-a-Progressive-Web-App-PWA" class="headerlink" title="Using MEW Offline as a Progressive Web App (PWA)"></a><strong>Using MEW Offline as a Progressive Web App (PWA)</strong></h2><p><strong>Step 1.</strong> In order to use MEW as a PWA, you’ll first need to head to our website on Google Chrome and install MEW, as shown below. </p>
+<img src="/images/posts/offline/offline1pwa.png" width="80%">
+
+<p><strong>Step 2.</strong> On your <strong>online</strong> computer, scroll down to the footer to find our Offline Helper tool.</p>
+<img src="/images/posts/offline/offline2pwa.png" width="80%">
+
+<p><strong>Step 3.</strong> Enter the address you’re sending <strong>from</strong> and click ‘Export JSON File’. </p>
+<ul>
+<li>Keep this safe, you’ll need it momentarily on your offline computer. Export it onto a USB for easy transfer.</li>
+</ul>
+<img src="/images/posts/offline/offline3pwa.png" width="80%">
+
+<p><strong>Step 4.</strong> On your <strong>offline</strong> computer, access your wallet as you would normally.</p>
+<ul>
+<li>It will look a bit strange, since you’re offline.</li>
+</ul>
+<img src="/images/posts/offline/offline4pwa.png" width="80%">
+
+<p><strong>Step 5.</strong> To the left, select ‘Send Offline’.</p>
+<img src="/images/posts/offline/offline5pwa.png" width="80%">
+
+<p><strong>Step 6.</strong> Scroll down and import the JSON file you received earlier. This will fill in a few details. After that, paste the address you’re sending <strong>to</strong> and the amount you’d like to send.</p>
+<img src="/images/posts/offline/offline6pwa.png" width="80%">
+
+<p><strong>Step 7.</strong> Now select ‘Generate Transaction’ and download the JSON file, or copy the Signed Transaction.</p>
+<ul>
+<li>You’ll need to use the USB from before for this step as well.</li>
+</ul>
+<img src="/images/posts/offline/offline7pwa.png" width="80%">
+
+<p><strong>Step 8.</strong> Back to your <strong>online</strong> computer, head to the Offline Helper tool again and enter the Signed Transaction section. </p>
+<ul>
+<li>Upload the JSON file here, or paste the Signed Transaction. Details should generate in the next section.</li>
+</ul>
+<img src="/images/posts/offline/offline8pwa.png" width="80%">
+
+<p><strong>Step 9.</strong> Double-check all your transaction details, then click ‘Send’. </p>
+<img src="/images/posts/offline/offline9pwa.png" width="80%">
+
+<p><strong>Step 10.</strong> You’re done! You’ve just sent an offline transaction.</p>
+<img src="/images/posts/offline/offline10pwa.png" width="80%">
+
+
 <h2 id="Downloading-and-Running-MEW-Offline"><a href="#Downloading-and-Running-MEW-Offline" class="headerlink" title="Downloading and Running MEW Offline"></a><strong>Downloading and Running MEW Offline</strong></h2><p><strong>Step 1.</strong> In order to set up your local MEW, start by downloading the latest release of MEW <a href="https://github.com/MyEtherWallet/MyEtherWallet/releases" target="_blank" rel="noopener">here</a>.</p>
 <img src="/images/posts/offline/MEWoffline1.png" width="80%">
 
@@ -1004,8 +1159,7 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
 <img src="/images/posts/offline/MEWoffline4.png" width="80%">
 
 <p>Congratulations, you’re running MEW offline! Make sure to repeat this process periodically, to ensure you’re on the most up-to-date version of our interface.</p>
-<p>Read this article for more information on <a href="/en/getting-started/how-to-create-a-wallet/">how to create a wallet</a>.
-Read this article if you’d like to know <a href="/en/offline/offline_transaction/">how to send an offline transaction</a>.</p>
+<p>Read this article for more information on <a href="/en/getting-started/how-to-create-a-wallet/">how to create a wallet</a>.<br>Read this article if you’d like to know <a href="/en/offline/offline_transaction/">how to send an offline transaction</a>.</p>
 
       </article>
       <div class="thumbs-and-share-container">
@@ -1030,19 +1184,19 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
 <div class="related-posts">
 
   
-    <a href="/en/offline/offline-mew-looks-weird/">
-      <div class="pre-post valid">
-        <div class="button-title">< Previous</div>
-        <p class="post-title">Offline MEW Looks Weird</p>
-      </div>
-    </a>
+    <div class="pre-post">
+      <div class="button-title">< Previous</div>
+      <p class="post-title">None</p>
+    </div>
   
 
   
-    <div class="next-post">
-      <div class="button-title">Next ></div>
-      <p class="post-title">None</p>
-    </div>
+    <a href="/en/offline/offline_transaction/">
+      <div class="next-post valid">
+        <div class="button-title">Next ></div>
+        <p class="post-title">Making an Offline Transaction</p>
+      </div>
+    </a>
   
 
 </div>
@@ -1057,7 +1211,7 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
     <div class="mew___components_breadcrumbs">
   <div class="wrap">
     <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
-    <div><a href="/en/categories">Categories</a> >&nbsp;</div>
+    <div><a href="/en/../categories">Categories</a> >&nbsp;</div>
     <div class="post-title"><span>[Offline]</span> Using MEW Offline (Cold Storage)</div>
   </div>  
 </div>
@@ -1101,13 +1255,34 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
         
       
         
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/offline/using-mew-offline/">
+              <div class="active">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Using MEW Offline (Cold Storage)</p>
+                <p class="hidden">ck5egjthr003zwl04f8rxpzcy</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
           
           <li class="primary-category-post-title">
             <a href="/en/offline/offline_transaction/">
               <div class="">
-                <div class="hidden post-index-number">1</div>
+                <div class="hidden post-index-number">2</div>
                 <p class="post-title">Making an Offline Transaction</p>
-                <p class="hidden">cjx5h1qh000fvvy04t51utit6</p>
+                <p class="hidden">ck5egjthp003xwl04napi1y5r</p>
               </div>
             </a>
           </li>
@@ -1118,45 +1293,32 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
           <li class="primary-category-post-title">
             <a href="/en/offline/offline-mew-looks-weird/">
               <div class="">
-                <div class="hidden post-index-number">2</div>
-                <p class="post-title">Offline MEW Looks Weird</p>
-                <p class="hidden">cjx5h1qgz00fsvy04av2ztsvc</p>
-              </div>
-            </a>
-          </li>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-          <li class="primary-category-post-title">
-            <a href="/en/offline/using-mew-offline/">
-              <div class="active">
                 <div class="hidden post-index-number">3</div>
-                <p class="post-title">Using MEW Offline (Cold Storage)</p>
-                <p class="hidden">cjx5h1qh100fzvy049hk158pv</p>
+                <p class="post-title">Offline MEW Looks Weird</p>
+                <p class="hidden">ck5egjthn003uwl04vh71mx84</p>
               </div>
             </a>
           </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         
@@ -1276,8 +1438,52 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
     </div>
     <div class="wrap-post-body">
       <article id="post-en/offline/using-mew-offline" class="article article-type-post" itemscope itemprop="blogPost">
-        <h1 id="Using-MEW-Offline-Cold-Storage"><a href="#Using-MEW-Offline-Cold-Storage" class="headerlink" title="Using MEW Offline (Cold Storage)"></a><strong>Using MEW Offline (Cold Storage)</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>2 min read</h6><hr>
-<p>For increased security, you can run MyEtherWallet (MEW) on your local computer, instead of from the GitHub servers through our website. The computer being used should not be connected to the internet. You can generate a wallet completely offline and send transactions on a different computer, which must be connected to the internet, from our ‘Send Offline’ section. In this way, your sensitive information (i.e. private key, keystore file, mnemonic phrase) is kept on an offline device, and it is never transmitted off your device.</p>
+        <h1 id="Using-MEW-Offline-Cold-Storage"><a href="#Using-MEW-Offline-Cold-Storage" class="headerlink" title="Using MEW Offline (Cold Storage)"></a><strong>Using MEW Offline (Cold Storage)</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>3 min read</h6><hr>
+<p>For increased security, you can run MyEtherWallet (MEW) on your local computer, instead of from the GitHub servers through our website. The main computer being used to generate the transactions should not be connected to the internet. You can generate a wallet completely offline and send transactions on a different computer, which must be connected to the internet, from our ‘Send Offline’ section. In this way, your sensitive information (i.e. private key, keystore file, mnemonic phrase) is kept on an offline device, and it is never transmitted off your device.</p>
+<p>There are two ways to use MEW offline, through the use of PWA or by downloading the client.</p>
+<h2 id="Using-MEW-Offline-as-a-Progressive-Web-App-PWA"><a href="#Using-MEW-Offline-as-a-Progressive-Web-App-PWA" class="headerlink" title="Using MEW Offline as a Progressive Web App (PWA)"></a><strong>Using MEW Offline as a Progressive Web App (PWA)</strong></h2><p><strong>Step 1.</strong> In order to use MEW as a PWA, you’ll first need to head to our website on Google Chrome and install MEW, as shown below. </p>
+<img src="/images/posts/offline/offline1pwa.png" width="80%">
+
+<p><strong>Step 2.</strong> On your <strong>online</strong> computer, scroll down to the footer to find our Offline Helper tool.</p>
+<img src="/images/posts/offline/offline2pwa.png" width="80%">
+
+<p><strong>Step 3.</strong> Enter the address you’re sending <strong>from</strong> and click ‘Export JSON File’. </p>
+<ul>
+<li>Keep this safe, you’ll need it momentarily on your offline computer. Export it onto a USB for easy transfer.</li>
+</ul>
+<img src="/images/posts/offline/offline3pwa.png" width="80%">
+
+<p><strong>Step 4.</strong> On your <strong>offline</strong> computer, access your wallet as you would normally.</p>
+<ul>
+<li>It will look a bit strange, since you’re offline.</li>
+</ul>
+<img src="/images/posts/offline/offline4pwa.png" width="80%">
+
+<p><strong>Step 5.</strong> To the left, select ‘Send Offline’.</p>
+<img src="/images/posts/offline/offline5pwa.png" width="80%">
+
+<p><strong>Step 6.</strong> Scroll down and import the JSON file you received earlier. This will fill in a few details. After that, paste the address you’re sending <strong>to</strong> and the amount you’d like to send.</p>
+<img src="/images/posts/offline/offline6pwa.png" width="80%">
+
+<p><strong>Step 7.</strong> Now select ‘Generate Transaction’ and download the JSON file, or copy the Signed Transaction.</p>
+<ul>
+<li>You’ll need to use the USB from before for this step as well.</li>
+</ul>
+<img src="/images/posts/offline/offline7pwa.png" width="80%">
+
+<p><strong>Step 8.</strong> Back to your <strong>online</strong> computer, head to the Offline Helper tool again and enter the Signed Transaction section. </p>
+<ul>
+<li>Upload the JSON file here, or paste the Signed Transaction. Details should generate in the next section.</li>
+</ul>
+<img src="/images/posts/offline/offline8pwa.png" width="80%">
+
+<p><strong>Step 9.</strong> Double-check all your transaction details, then click ‘Send’. </p>
+<img src="/images/posts/offline/offline9pwa.png" width="80%">
+
+<p><strong>Step 10.</strong> You’re done! You’ve just sent an offline transaction.</p>
+<img src="/images/posts/offline/offline10pwa.png" width="80%">
+
+
 <h2 id="Downloading-and-Running-MEW-Offline"><a href="#Downloading-and-Running-MEW-Offline" class="headerlink" title="Downloading and Running MEW Offline"></a><strong>Downloading and Running MEW Offline</strong></h2><p><strong>Step 1.</strong> In order to set up your local MEW, start by downloading the latest release of MEW <a href="https://github.com/MyEtherWallet/MyEtherWallet/releases" target="_blank" rel="noopener">here</a>.</p>
 <img src="/images/posts/offline/MEWoffline1.png" width="80%">
 
@@ -1291,8 +1497,7 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
 <img src="/images/posts/offline/MEWoffline4.png" width="80%">
 
 <p>Congratulations, you’re running MEW offline! Make sure to repeat this process periodically, to ensure you’re on the most up-to-date version of our interface.</p>
-<p>Read this article for more information on <a href="/en/getting-started/how-to-create-a-wallet/">how to create a wallet</a>.
-Read this article if you’d like to know <a href="/en/offline/offline_transaction/">how to send an offline transaction</a>.</p>
+<p>Read this article for more information on <a href="/en/getting-started/how-to-create-a-wallet/">how to create a wallet</a>.<br>Read this article if you’d like to know <a href="/en/offline/offline_transaction/">how to send an offline transaction</a>.</p>
 
       </article>
       <div class="thumbs-and-share-container">
@@ -1317,19 +1522,19 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
 <div class="related-posts">
 
   
-    <a href="/en/offline/offline-mew-looks-weird/">
-      <div class="pre-post valid">
-        <div class="button-title">< Previous</div>
-        <p class="post-title">Offline MEW Looks Weird</p>
-      </div>
-    </a>
+    <div class="pre-post">
+      <div class="button-title">< Previous</div>
+      <p class="post-title">None</p>
+    </div>
   
 
   
-    <div class="next-post">
-      <div class="button-title">Next ></div>
-      <p class="post-title">None</p>
-    </div>
+    <a href="/en/offline/offline_transaction/">
+      <div class="next-post valid">
+        <div class="button-title">Next ></div>
+        <p class="post-title">Making an Offline Transaction</p>
+      </div>
+    </a>
   
 
 </div>
@@ -1360,8 +1565,6 @@ Read this article if you’d like to know <a href="/en/offline/offline_transacti
     </div>
   </div>
 </div>
-
-
 
 
       <footer>

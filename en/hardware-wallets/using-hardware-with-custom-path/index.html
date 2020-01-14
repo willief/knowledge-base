@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  
+  <title>Using a Hardware Wallet With a Custom Derivation Path | MyEtherWallet Knowledge Base</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="../../../css/google-fonts.css">
+<link rel="stylesheet" href="../../../css/font-awesome.css">
+
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <link rel="stylesheet" href="../../../css/style.css">
+</head>
+</html>
+<body>
+
+  <div class="site-container desktop-content">
+    <div class="site-wrap">
+      
+
+
+  <header>
+  <div class="page-container">
+    <div class="header-wrap">
+      <div class="header-top-block">
+    <div class="left">
+        <a href="/en/../"><img src="../../../images/mew-logo-white.png"></a>
+        <p>Help Center</p>
+    </div>
+    <div class="right">
+        <ul>
+            
+                <li><a class="main-nav-link" href="/en/../index.html">Home</a></li>
+            
+                <li><a class="main-nav-link" href="mailto:support@myetherwallet.com">Support</a></li>
+            
+<!--            <li>
+                <label id="lang-select-label" for="lang-select" class="lang-nav-link"><img src="../../../images/flags/en.svg" width="40" height="20"></label>
+                <select id="lang-select" class="hidden" data-canonical="hardware-wallets/using-hardware-with-custom-path/index.html">
+                    <option >Select Language</option>
+                    
+                    <option value="ru">Русский</option>
+                    
+                    <option value="en" selected>English</option>
+                    
+                    <option value="ko">한국어</option>
+                    
+                    <option value="ja">日本語</option>
+                    
+                    <option value="es">español</option>
+                    
+                    <option value="zh">简体中文</option>
+                    
+                </select>
+            </li>-->
+        </ul>
+    </div>
+</div>
+
+      <div class="page-title">
+        <div class="title">Hardware Wallets</div>
+      </div>
+    </div>
+  </div>
+</header>
+  
+<div class="desktop-content">
+  <div class="breadcrumbs-container page-container">
+    <div class="mew___components_breadcrumbs">
+  <div class="wrap">
+    <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
+    <div><a href="/en/categories">Categories</a> >&nbsp;</div>
+    <div class="post-title"><span>[Hardware Wallets]</span> Using a Hardware Wallet With a Custom Derivation Path</div>
+  </div>  
+</div>
+
+  </div>
+  <div class="article-container page-container">
+    <div class="wrap-sidebar">
+      
+
+
+<aside>
+  <div class="search-form-container hidden">
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://kb.myetherwallet.com"></form>
+  </div>
+  <div class="sidebar-search">
+    <div class="mew___components_sidebar_sidebar-search-form">
+  <input id="sidebar-post-search-form" type="text" placeholder="Search">
+</div>
+
+  </div>
+  <div class="sidebar-primary-category">
+    <ul>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtgk002fwl04172rchcv</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">2</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtg90022wl04a42gxdr9</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">3</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtge002awl04kv1h49ek</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">4</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtgh002dwl04djqvcgho</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">5</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtg2001vwl04d59x8qwl</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">6</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">ck5egjtg4001wwl04vqa4qham</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-hardware-with-custom-path/">
+              <div class="active">
+                <div class="hidden post-index-number">7</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Derivation Path</p>
+                <p class="hidden">ck5egjtg6001ywl04i3mgnbyc</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/unable-to-connect-with-hardware-wallet/">
+              <div class="">
+                <div class="hidden post-index-number">8</div>
+                <p class="post-title">Unable to Connect to Hardware Wallet</p>
+                <p class="hidden">ck5egjtg0001rwl0401v66yrq</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">9</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">ck5egjtgc0026wl04wfxxbgrl</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+  <div class="customer">
+    
+<div class="mew___components_sidebar_customer-support-block">
+  <div class="wrap">
+    <div class="icon-image">
+      <img src="../../../images/mew-icons/customer-support.svg">
+    </div>
+    <div class="content">
+      <div class="title">Customer Support</div>
+      <div class="email-us">
+        <a href="mailto:support@myetherwallet.com" target="_blank">
+          Email us
+          <span>&#x2192;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- .bottom-helpers -->
+
+  </div>
+</aside>
+    </div>
+    <div class="wrap-post-body">
+      <article id="post-en/hardware-wallets/using-hardware-with-custom-path" class="article article-type-post" itemscope itemprop="blogPost">
+        <h1 id="Using-a-Hardware-Wallet-With-a-Custom-Derivation-Path"><a href="#Using-a-Hardware-Wallet-With-a-Custom-Derivation-Path" class="headerlink" title="Using a Hardware Wallet With a Custom Derivation Path"></a><strong>Using a Hardware Wallet With a Custom Derivation Path</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>1 min read</h6><hr>
+<p>When accessing a hardware wallet, you’re given the choice of which derivation path to use. Most of the time it’s best to use the default path for familiarity, since each path leads to a different set of addresses. However, there are occassions where a different path is necessary. We’ve included the ability to add custom derivation paths so you can connect to whichever path you’d like. To read more about Derivation Paths, check out our article <a href="https://medium.com/myetherwallet/hd-wallets-and-derivation-paths-explained-865a643c7bf2" target="_blank" rel="noopener">here</a>.</p>
+<p><strong>Step 1.</strong> Head to the MEW homepage and select ‘Access My Wallet’, then choose ‘Hardware Wallet’. </p>
+<ul>
+<li>This can also be done via Mnemonic Phrase access. </li>
+</ul>
+<p><strong>Step 2.</strong> After selecting your Hardware Wallet, a screen like the one below should appear. Click the small arrow to expand a larger list of Derivation Path options.</p>
+<img src="/images/posts/hardware-wallet/custompath0.jpg" width="80%">
+
+<p><strong>Step 3.</strong> Choose ‘Custom Path’ on the bottom-right and enter the details of the custom path you’d like to connect through.</p>
+<img src="/images/posts/hardware-wallet/custompath1.jpg" width="70%">
+
+<img src="/images/posts/hardware-wallet/custompath2.jpg" width="70%">
+
+<p><strong>You’re all set!</strong> After you’ve added your custom path, you should see a different list of addresses to connect to.</p>
+
+      </article>
+      <div class="thumbs-and-share-container">
+        <div class="share">
+          <div class="mew___components_share">
+  <div class="wrap">
+    <div class="title">Share to</div>
+    <div><a href="https://www.facebook.com/MyEtherWallet" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+    <div><a href="https://twitter.com/myetherwallet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.linkedin.com/company/myetherwallet" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></div>
+    <div><a href="https://medium.com/@myetherwallet" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="pre-next-posts">
+        
+
+
+<div class="related-posts">
+
+  
+    <a href="/en/hardware-wallets/using-hardware-wallet-with-custom-node/">
+      <div class="pre-post valid">
+        <div class="button-title">< Previous</div>
+        <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+      </div>
+    </a>
+  
+
+  
+    <a href="/en/hardware-wallets/unable-to-connect-with-hardware-wallet/">
+      <div class="next-post valid">
+        <div class="button-title">Next ></div>
+        <p class="post-title">Unable to Connect to Hardware Wallet</p>
+      </div>
+    </a>
+  
+
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mobile-content">
+  <div class="breadcrumbs-container page-container hidden">
+    <div class="mew___components_breadcrumbs">
+  <div class="wrap">
+    <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
+    <div><a href="/en/../categories">Categories</a> >&nbsp;</div>
+    <div class="post-title"><span>[Hardware Wallets]</span> Using a Hardware Wallet With a Custom Derivation Path</div>
+  </div>  
+</div>
+
+  </div>
+  <div class="article-container page-container">
+    <div class="wrap-sidebar">
+      
+
+
+<aside>
+  <div class="search-form-container hidden">
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://kb.myetherwallet.com"></form>
+  </div>
+  <div class="sidebar-search hidden">
+    <div class="mew___components_sidebar_sidebar-search-form">
+  <input id="sidebar-post-search-form" type="text" placeholder="Search">
+</div>
+
+  </div>
+  <div class="show-list-button">
+    <p>Show all posts</p>
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+  </div>
+  <div class="sidebar-primary-category mobile-post-list">
+    <ul>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtgk002fwl04172rchcv</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">2</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtg90022wl04a42gxdr9</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">3</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtge002awl04kv1h49ek</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">4</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtgh002dwl04djqvcgho</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">5</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtg2001vwl04d59x8qwl</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">6</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">ck5egjtg4001wwl04vqa4qham</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-hardware-with-custom-path/">
+              <div class="active">
+                <div class="hidden post-index-number">7</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Derivation Path</p>
+                <p class="hidden">ck5egjtg6001ywl04i3mgnbyc</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/unable-to-connect-with-hardware-wallet/">
+              <div class="">
+                <div class="hidden post-index-number">8</div>
+                <p class="post-title">Unable to Connect to Hardware Wallet</p>
+                <p class="hidden">ck5egjtg0001rwl0401v66yrq</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">9</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">ck5egjtgc0026wl04wfxxbgrl</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+  <div class="sidebar-close-button">Close</div>
+</aside>
+    </div>
+    <div class="wrap-post-body">
+      <article id="post-en/hardware-wallets/using-hardware-with-custom-path" class="article article-type-post" itemscope itemprop="blogPost">
+        <h1 id="Using-a-Hardware-Wallet-With-a-Custom-Derivation-Path"><a href="#Using-a-Hardware-Wallet-With-a-Custom-Derivation-Path" class="headerlink" title="Using a Hardware Wallet With a Custom Derivation Path"></a><strong>Using a Hardware Wallet With a Custom Derivation Path</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>1 min read</h6><hr>
+<p>When accessing a hardware wallet, you’re given the choice of which derivation path to use. Most of the time it’s best to use the default path for familiarity, since each path leads to a different set of addresses. However, there are occassions where a different path is necessary. We’ve included the ability to add custom derivation paths so you can connect to whichever path you’d like. To read more about Derivation Paths, check out our article <a href="https://medium.com/myetherwallet/hd-wallets-and-derivation-paths-explained-865a643c7bf2" target="_blank" rel="noopener">here</a>.</p>
+<p><strong>Step 1.</strong> Head to the MEW homepage and select ‘Access My Wallet’, then choose ‘Hardware Wallet’. </p>
+<ul>
+<li>This can also be done via Mnemonic Phrase access. </li>
+</ul>
+<p><strong>Step 2.</strong> After selecting your Hardware Wallet, a screen like the one below should appear. Click the small arrow to expand a larger list of Derivation Path options.</p>
+<img src="/images/posts/hardware-wallet/custompath0.jpg" width="80%">
+
+<p><strong>Step 3.</strong> Choose ‘Custom Path’ on the bottom-right and enter the details of the custom path you’d like to connect through.</p>
+<img src="/images/posts/hardware-wallet/custompath1.jpg" width="70%">
+
+<img src="/images/posts/hardware-wallet/custompath2.jpg" width="70%">
+
+<p><strong>You’re all set!</strong> After you’ve added your custom path, you should see a different list of addresses to connect to.</p>
+
+      </article>
+      <div class="thumbs-and-share-container">
+        <div class="share">
+          <div class="mew___components_share">
+  <div class="wrap">
+    <div class="title">Share to</div>
+    <div><a href="https://www.facebook.com/MyEtherWallet" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+    <div><a href="https://twitter.com/myetherwallet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.linkedin.com/company/myetherwallet" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></div>
+    <div><a href="https://medium.com/@myetherwallet" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="pre-next-posts">
+        
+
+
+<div class="related-posts">
+
+  
+    <a href="/en/hardware-wallets/using-hardware-wallet-with-custom-node/">
+      <div class="pre-post valid">
+        <div class="button-title">< Previous</div>
+        <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+      </div>
+    </a>
+  
+
+  
+    <a href="/en/hardware-wallets/unable-to-connect-with-hardware-wallet/">
+      <div class="next-post valid">
+        <div class="button-title">Next ></div>
+        <p class="post-title">Unable to Connect to Hardware Wallet</p>
+      </div>
+    </a>
+  
+
+</div>
+
+
+      </div>
+    </div>
+    <div class="padded-wrap">
+      
+<div class="mew___components_sidebar_customer-support-block">
+  <div class="wrap">
+    <div class="icon-image">
+      <img src="../../../images/mew-icons/customer-support.svg">
+    </div>
+    <div class="content">
+      <div class="title">Customer Support</div>
+      <div class="email-us">
+        <a href="mailto:support@myetherwallet.com" target="_blank">
+          Email us
+          <span>&#x2192;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- .bottom-helpers -->
+
+    </div>
+  </div>
+</div>
+
+
+
+
+      <footer>
+  <div class="page-container">
+    <div class="wrap">
+      <div class="block-left">
+        <p><a href="/en/../index.html">Home</a></p>
+        <p><a href="https://myetherwallet.com" target="_blank">MyEtherWallet.com</a></p>
+        <p><a href="https://www.myetherwallet.com/privacy-policy" target="_blank">Privacy</a></p>
+        <p><a href="https://www.myetherwallet.com/terms-and-conditions" target="_blank">Terms</a></p>
+      </div>
+      <div class="block-right">
+        <p>© 2018 MyEtherWallet Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+  </div>
+  <div class="site-container mobile-content">
+    <div class="site-wrap">
+      
+
+  <header>
+  <div class="header-wrap">
+    <div class="header-top-block">
+<!--  <div class="upper-menu">
+    <label id="lang-select-label" for="lang-select" class="lang-nav-link lang-choices lang-flag"><img src="../../../images/flags/en.svg" width="20" height="10"></label>
+    <select id="lang-select" class="hidden lang-choices" data-canonical="hardware-wallets/using-hardware-with-custom-path/index.html">
+      <option value="en">Select Language</option>
+      
+        <option value="ru">Русский</option>
+      
+        <option value="en" selected>English</option>
+      
+        <option value="ko">한국어</option>
+      
+        <option value="ja">日本語</option>
+      
+        <option value="es">español</option>
+      
+        <option value="zh">简体中文</option>
+      
+    </select>
+  </div>-->
+  <div class="left">
+    <a href="/en/../"><img src="../../../images/mew-logo-dark.png"></a>
+  </div>
+  <div class="menu">
+    <p>Help Center</p>
+  </div>
+  <div class="right hidden">
+    <ul>
+      
+        <li><a class="main-nav-link" href="/en/../index.html">Home</a></li>
+      
+        <li><a class="main-nav-link" href="mailto:support@myetherwallet.com">Support</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+    <div class="page-title">
+      <div class="title">Hardware Wallets</div>
+    </div>
+  </div>
+</header>
+  
+<div class="desktop-content">
+  <div class="breadcrumbs-container page-container">
+    <div class="mew___components_breadcrumbs">
+  <div class="wrap">
+    <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
+    <div><a href="/en/categories">Categories</a> >&nbsp;</div>
+    <div class="post-title"><span>[Hardware Wallets]</span> Using a Hardware Wallet With a Custom Derivation Path</div>
+  </div>  
+</div>
+
+  </div>
+  <div class="article-container page-container">
+    <div class="wrap-sidebar">
+      
+
+
+<aside>
+  <div class="search-form-container hidden">
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://kb.myetherwallet.com"></form>
+  </div>
+  <div class="sidebar-search">
+    <div class="mew___components_sidebar_sidebar-search-form">
+  <input id="sidebar-post-search-form" type="text" placeholder="Search">
+</div>
+
+  </div>
+  <div class="sidebar-primary-category">
+    <ul>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtgk002fwl04172rchcv</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">2</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtg90022wl04a42gxdr9</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">3</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtge002awl04kv1h49ek</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">4</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtgh002dwl04djqvcgho</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">5</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtg2001vwl04d59x8qwl</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">6</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">ck5egjtg4001wwl04vqa4qham</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-hardware-with-custom-path/">
+              <div class="active">
+                <div class="hidden post-index-number">7</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Derivation Path</p>
+                <p class="hidden">ck5egjtg6001ywl04i3mgnbyc</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/unable-to-connect-with-hardware-wallet/">
+              <div class="">
+                <div class="hidden post-index-number">8</div>
+                <p class="post-title">Unable to Connect to Hardware Wallet</p>
+                <p class="hidden">ck5egjtg0001rwl0401v66yrq</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">9</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">ck5egjtgc0026wl04wfxxbgrl</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+  <div class="customer">
+    
+<div class="mew___components_sidebar_customer-support-block">
+  <div class="wrap">
+    <div class="icon-image">
+      <img src="../../../images/mew-icons/customer-support.svg">
+    </div>
+    <div class="content">
+      <div class="title">Customer Support</div>
+      <div class="email-us">
+        <a href="mailto:support@myetherwallet.com" target="_blank">
+          Email us
+          <span>&#x2192;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- .bottom-helpers -->
+
+  </div>
+</aside>
+    </div>
+    <div class="wrap-post-body">
+      <article id="post-en/hardware-wallets/using-hardware-with-custom-path" class="article article-type-post" itemscope itemprop="blogPost">
+        <h1 id="Using-a-Hardware-Wallet-With-a-Custom-Derivation-Path"><a href="#Using-a-Hardware-Wallet-With-a-Custom-Derivation-Path" class="headerlink" title="Using a Hardware Wallet With a Custom Derivation Path"></a><strong>Using a Hardware Wallet With a Custom Derivation Path</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>1 min read</h6><hr>
+<p>When accessing a hardware wallet, you’re given the choice of which derivation path to use. Most of the time it’s best to use the default path for familiarity, since each path leads to a different set of addresses. However, there are occassions where a different path is necessary. We’ve included the ability to add custom derivation paths so you can connect to whichever path you’d like. To read more about Derivation Paths, check out our article <a href="https://medium.com/myetherwallet/hd-wallets-and-derivation-paths-explained-865a643c7bf2" target="_blank" rel="noopener">here</a>.</p>
+<p><strong>Step 1.</strong> Head to the MEW homepage and select ‘Access My Wallet’, then choose ‘Hardware Wallet’. </p>
+<ul>
+<li>This can also be done via Mnemonic Phrase access. </li>
+</ul>
+<p><strong>Step 2.</strong> After selecting your Hardware Wallet, a screen like the one below should appear. Click the small arrow to expand a larger list of Derivation Path options.</p>
+<img src="/images/posts/hardware-wallet/custompath0.jpg" width="80%">
+
+<p><strong>Step 3.</strong> Choose ‘Custom Path’ on the bottom-right and enter the details of the custom path you’d like to connect through.</p>
+<img src="/images/posts/hardware-wallet/custompath1.jpg" width="70%">
+
+<img src="/images/posts/hardware-wallet/custompath2.jpg" width="70%">
+
+<p><strong>You’re all set!</strong> After you’ve added your custom path, you should see a different list of addresses to connect to.</p>
+
+      </article>
+      <div class="thumbs-and-share-container">
+        <div class="share">
+          <div class="mew___components_share">
+  <div class="wrap">
+    <div class="title">Share to</div>
+    <div><a href="https://www.facebook.com/MyEtherWallet" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+    <div><a href="https://twitter.com/myetherwallet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.linkedin.com/company/myetherwallet" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></div>
+    <div><a href="https://medium.com/@myetherwallet" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="pre-next-posts">
+        
+
+
+<div class="related-posts">
+
+  
+    <a href="/en/hardware-wallets/using-hardware-wallet-with-custom-node/">
+      <div class="pre-post valid">
+        <div class="button-title">< Previous</div>
+        <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+      </div>
+    </a>
+  
+
+  
+    <a href="/en/hardware-wallets/unable-to-connect-with-hardware-wallet/">
+      <div class="next-post valid">
+        <div class="button-title">Next ></div>
+        <p class="post-title">Unable to Connect to Hardware Wallet</p>
+      </div>
+    </a>
+  
+
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mobile-content">
+  <div class="breadcrumbs-container page-container hidden">
+    <div class="mew___components_breadcrumbs">
+  <div class="wrap">
+    <div class="hidden"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Help Center</a> >&nbsp;</div>
+    <div><a href="/en/../categories">Categories</a> >&nbsp;</div>
+    <div class="post-title"><span>[Hardware Wallets]</span> Using a Hardware Wallet With a Custom Derivation Path</div>
+  </div>  
+</div>
+
+  </div>
+  <div class="article-container page-container">
+    <div class="wrap-sidebar">
+      
+
+
+<aside>
+  <div class="search-form-container hidden">
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://kb.myetherwallet.com"></form>
+  </div>
+  <div class="sidebar-search hidden">
+    <div class="mew___components_sidebar_sidebar-search-form">
+  <input id="sidebar-post-search-form" type="text" placeholder="Search">
+</div>
+
+  </div>
+  <div class="show-list-button">
+    <p>Show all posts</p>
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+  </div>
+  <div class="sidebar-primary-category mobile-post-list">
+    <ul>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-trezor-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">1</div>
+                <p class="post-title">Using a Trezor Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtgk002fwl04172rchcv</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-keepkey-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">2</div>
+                <p class="post-title">Using a KeepKey Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtg90022wl04a42gxdr9</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-ledger-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">3</div>
+                <p class="post-title">Using a Ledger Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtge002awl04kv1h49ek</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-secalot-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">4</div>
+                <p class="post-title">Using a Secalot Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtgh002dwl04djqvcgho</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-bitbox-with-mew/">
+              <div class="">
+                <div class="hidden post-index-number">5</div>
+                <p class="post-title">Using a Digital BitBox Hardware Wallet with MEW</p>
+                <p class="hidden">ck5egjtg2001vwl04d59x8qwl</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-hardware-wallet-with-custom-node/">
+              <div class="">
+                <div class="hidden post-index-number">6</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+                <p class="hidden">ck5egjtg4001wwl04vqa4qham</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-hardware-with-custom-path/">
+              <div class="active">
+                <div class="hidden post-index-number">7</div>
+                <p class="post-title">Using a Hardware Wallet With a Custom Derivation Path</p>
+                <p class="hidden">ck5egjtg6001ywl04i3mgnbyc</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/unable-to-connect-with-hardware-wallet/">
+              <div class="">
+                <div class="hidden post-index-number">8</div>
+                <p class="post-title">Unable to Connect to Hardware Wallet</p>
+                <p class="hidden">ck5egjtg0001rwl0401v66yrq</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+          
+          <li class="primary-category-post-title">
+            <a href="/en/hardware-wallets/using-ledger-hw-with-android-device/">
+              <div class="">
+                <div class="hidden post-index-number">9</div>
+                <p class="post-title">Using a Ledger Hardware Wallet With an Android Device</p>
+                <p class="hidden">ck5egjtgc0026wl04wfxxbgrl</p>
+              </div>
+            </a>
+          </li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+  <div class="sidebar-close-button">Close</div>
+</aside>
+    </div>
+    <div class="wrap-post-body">
+      <article id="post-en/hardware-wallets/using-hardware-with-custom-path" class="article article-type-post" itemscope itemprop="blogPost">
+        <h1 id="Using-a-Hardware-Wallet-With-a-Custom-Derivation-Path"><a href="#Using-a-Hardware-Wallet-With-a-Custom-Derivation-Path" class="headerlink" title="Using a Hardware Wallet With a Custom Derivation Path"></a><strong>Using a Hardware Wallet With a Custom Derivation Path</strong></h1><h6 id="min-read"><a href="#min-read" class="headerlink" title=" min read"></a>1 min read</h6><hr>
+<p>When accessing a hardware wallet, you’re given the choice of which derivation path to use. Most of the time it’s best to use the default path for familiarity, since each path leads to a different set of addresses. However, there are occassions where a different path is necessary. We’ve included the ability to add custom derivation paths so you can connect to whichever path you’d like. To read more about Derivation Paths, check out our article <a href="https://medium.com/myetherwallet/hd-wallets-and-derivation-paths-explained-865a643c7bf2" target="_blank" rel="noopener">here</a>.</p>
+<p><strong>Step 1.</strong> Head to the MEW homepage and select ‘Access My Wallet’, then choose ‘Hardware Wallet’. </p>
+<ul>
+<li>This can also be done via Mnemonic Phrase access. </li>
+</ul>
+<p><strong>Step 2.</strong> After selecting your Hardware Wallet, a screen like the one below should appear. Click the small arrow to expand a larger list of Derivation Path options.</p>
+<img src="/images/posts/hardware-wallet/custompath0.jpg" width="80%">
+
+<p><strong>Step 3.</strong> Choose ‘Custom Path’ on the bottom-right and enter the details of the custom path you’d like to connect through.</p>
+<img src="/images/posts/hardware-wallet/custompath1.jpg" width="70%">
+
+<img src="/images/posts/hardware-wallet/custompath2.jpg" width="70%">
+
+<p><strong>You’re all set!</strong> After you’ve added your custom path, you should see a different list of addresses to connect to.</p>
+
+      </article>
+      <div class="thumbs-and-share-container">
+        <div class="share">
+          <div class="mew___components_share">
+  <div class="wrap">
+    <div class="title">Share to</div>
+    <div><a href="https://www.facebook.com/MyEtherWallet" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+    <div><a href="https://twitter.com/myetherwallet" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.linkedin.com/company/myetherwallet" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+    <div><a href="https://www.reddit.com/r/MyEtherWallet/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></div>
+    <div><a href="https://medium.com/@myetherwallet" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></div>
+  </div>
+</div>
+
+        </div>
+      </div>
+      <div class="pre-next-posts">
+        
+
+
+<div class="related-posts">
+
+  
+    <a href="/en/hardware-wallets/using-hardware-wallet-with-custom-node/">
+      <div class="pre-post valid">
+        <div class="button-title">< Previous</div>
+        <p class="post-title">Using a Hardware Wallet With a Custom Node</p>
+      </div>
+    </a>
+  
+
+  
+    <a href="/en/hardware-wallets/unable-to-connect-with-hardware-wallet/">
+      <div class="next-post valid">
+        <div class="button-title">Next ></div>
+        <p class="post-title">Unable to Connect to Hardware Wallet</p>
+      </div>
+    </a>
+  
+
+</div>
+
+
+      </div>
+    </div>
+    <div class="padded-wrap">
+      
+<div class="mew___components_sidebar_customer-support-block">
+  <div class="wrap">
+    <div class="icon-image">
+      <img src="../../../images/mew-icons/customer-support.svg">
+    </div>
+    <div class="content">
+      <div class="title">Customer Support</div>
+      <div class="email-us">
+        <a href="mailto:support@myetherwallet.com" target="_blank">
+          Email us
+          <span>&#x2192;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- .bottom-helpers -->
+
+    </div>
+  </div>
+</div>
+
+
+      <footer>
+  <div class="page-container">
+    <div class="wrap">
+      <div class="block-left">
+        <p><a href="/en/../index.html">Home</a></p>
+        <p class="hidden"><a href="https://myetherwallet.com" target="_blank">MyEtherWallet.com</a></p>
+        <p><a href="https://www.myetherwallet.com/privacy-policy" target="_blank">Privacy</a></p>
+        <p><a href="https://www.myetherwallet.com/terms-and-conditions" target="_blank">Terms</a></p>
+      </div>
+      <div class="block-right">
+        <p>© 2018 MyEtherWallet Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+  </div>
+
+  <script src="../../../js/jquery.min.js"></script>
+<script src="../../../js/initialization.js"></script>
+<script src="../../../js/mew/accordion.js"></script>
+<script src="../../../js/mew/youtube-popup.js"></script>
+<script src="../../../js/mew/sidebar.js"></script>
+<script src="../../../js/mew/sidebar-post-search.js"></script>
+<script src="../../../js/mew/header-post-search.js"></script>
+
+</body>
+</html>
